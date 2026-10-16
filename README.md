@@ -29,7 +29,7 @@ The scraper waits between requests and runs once a day.
 ## Getting the report
 
 - **GitHub issue (default):** when something changes, the job opens an issue titled `Autod DD.MM.YYYY`. GitHub emails you, and it shows up in the GitHub mobile app. Days with no changes produce no issue.
-- **Email:** the report as a formatted email, with the subject summarising the day (e.g. `Autod 17.10.2026: 3 new, 2 price changes`). It's sent through the same mail server as the nexara app: veebimajutus, `info@kergeraskus.ee`, port 465 SSL. Setup:
+- **Email:** the report as a formatted email, with the subject summarising the day (e.g. `Autod 17.10.2026: 3 new, 2 price changes`). It's sent through the same mail server as the nexara app: veebimajutus, sent as `jakob@kergeraskus.ee`, port 465 SSL. Setup:
   - Add the repository secret `SMTP_PASSWORD` (the jakob@kergeraskus.ee mailbox password) under *Settings → Secrets and variables → Actions*.
   - Recipients default to jakob.pihol@gmail.com. To change them, add a repository **variable** `EMAIL_TO` (comma-separated).
 - **Telegram (optional):** add repository secrets `TELEGRAM_BOT_TOKEN` (from [@BotFather](https://t.me/BotFather)) and `TELEGRAM_CHAT_ID` (send your bot a message, then read `chat.id` from `https://api.telegram.org/bot<TOKEN>/getUpdates`).
