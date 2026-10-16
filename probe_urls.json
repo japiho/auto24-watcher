@@ -1,5 +1,225 @@
 {
-  "vg_all": {"url": "https://api.veego.ee/api/v2/search", "json": {"page": 1, "order_by": "Standard", "is_new": 0}},
-  "vg_term": {"url": "https://api.veego.ee/api/v2/search", "json": {"page": 1, "order_by": "Standard", "is_new": 0, "term": "Superb", "year_from": 2019, "price_to": 32000, "kw_from": 100, "mileage_to": 140000}},
-  "vg_makes": "https://api.veego.ee/api/vehicle/makes"
+ "vg_drive1": {
+  "url": "https://api.veego.ee/api/v2/search",
+  "json": {
+   "page": 1,
+   "order_by": "Standard",
+   "is_new": 0,
+   "term": "Passat",
+   "year_from": 2015,
+   "drivetrain_ids": [
+    1
+   ]
+  }
+ },
+ "vg_drive2": {
+  "url": "https://api.veego.ee/api/v2/search",
+  "json": {
+   "page": 1,
+   "order_by": "Standard",
+   "is_new": 0,
+   "term": "Passat",
+   "year_from": 2015,
+   "drivetrain_ids": [
+    2
+   ]
+  }
+ },
+ "vg_drive3": {
+  "url": "https://api.veego.ee/api/v2/search",
+  "json": {
+   "page": 1,
+   "order_by": "Standard",
+   "is_new": 0,
+   "term": "Passat",
+   "year_from": 2015,
+   "drivetrain_ids": [
+    3
+   ]
+  }
+ },
+ "vg_drive4": {
+  "url": "https://api.veego.ee/api/v2/search",
+  "json": {
+   "page": 1,
+   "order_by": "Standard",
+   "is_new": 0,
+   "term": "Passat",
+   "year_from": 2015,
+   "drivetrain_ids": [
+    4
+   ]
+  }
+ },
+ "vg_drive5": {
+  "url": "https://api.veego.ee/api/v2/search",
+  "json": {
+   "page": 1,
+   "order_by": "Standard",
+   "is_new": 0,
+   "term": "Passat",
+   "year_from": 2015,
+   "drivetrain_ids": [
+    5
+   ]
+  }
+ },
+ "vg_body1": {
+  "url": "https://api.veego.ee/api/v2/search",
+  "json": {
+   "page": 1,
+   "order_by": "Standard",
+   "is_new": 0,
+   "term": "Passat",
+   "year_from": 2015,
+   "body_type_ids": [
+    1
+   ]
+  }
+ },
+ "vg_body2": {
+  "url": "https://api.veego.ee/api/v2/search",
+  "json": {
+   "page": 1,
+   "order_by": "Standard",
+   "is_new": 0,
+   "term": "Passat",
+   "year_from": 2015,
+   "body_type_ids": [
+    2
+   ]
+  }
+ },
+ "vg_body3": {
+  "url": "https://api.veego.ee/api/v2/search",
+  "json": {
+   "page": 1,
+   "order_by": "Standard",
+   "is_new": 0,
+   "term": "Passat",
+   "year_from": 2015,
+   "body_type_ids": [
+    3
+   ]
+  }
+ },
+ "vg_body4": {
+  "url": "https://api.veego.ee/api/v2/search",
+  "json": {
+   "page": 1,
+   "order_by": "Standard",
+   "is_new": 0,
+   "term": "Passat",
+   "year_from": 2015,
+   "body_type_ids": [
+    4
+   ]
+  }
+ },
+ "vg_body5": {
+  "url": "https://api.veego.ee/api/v2/search",
+  "json": {
+   "page": 1,
+   "order_by": "Standard",
+   "is_new": 0,
+   "term": "Passat",
+   "year_from": 2015,
+   "body_type_ids": [
+    5
+   ]
+  }
+ },
+ "vg_body6": {
+  "url": "https://api.veego.ee/api/v2/search",
+  "json": {
+   "page": 1,
+   "order_by": "Standard",
+   "is_new": 0,
+   "term": "Passat",
+   "year_from": 2015,
+   "body_type_ids": [
+    6
+   ]
+  }
+ },
+ "vg_body7": {
+  "url": "https://api.veego.ee/api/v2/search",
+  "json": {
+   "page": 1,
+   "order_by": "Standard",
+   "is_new": 0,
+   "term": "Passat",
+   "year_from": 2015,
+   "body_type_ids": [
+    7
+   ]
+  }
+ },
+ "vg_body8": {
+  "url": "https://api.veego.ee/api/v2/search",
+  "json": {
+   "page": 1,
+   "order_by": "Standard",
+   "is_new": 0,
+   "term": "Passat",
+   "year_from": 2015,
+   "body_type_ids": [
+    8
+   ]
+  }
+ },
+ "vg_body9": {
+  "url": "https://api.veego.ee/api/v2/search",
+  "json": {
+   "page": 1,
+   "order_by": "Standard",
+   "is_new": 0,
+   "term": "Passat",
+   "year_from": 2015,
+   "body_type_ids": [
+    9
+   ]
+  }
+ },
+ "vg_body10": {
+  "url": "https://api.veego.ee/api/v2/search",
+  "json": {
+   "page": 1,
+   "order_by": "Standard",
+   "is_new": 0,
+   "term": "Passat",
+   "year_from": 2015,
+   "body_type_ids": [
+    10
+   ]
+  }
+ },
+ "vg_body11": {
+  "url": "https://api.veego.ee/api/v2/search",
+  "json": {
+   "page": 1,
+   "order_by": "Standard",
+   "is_new": 0,
+   "term": "Passat",
+   "year_from": 2015,
+   "body_type_ids": [
+    11
+   ]
+  }
+ },
+ "vg_body12": {
+  "url": "https://api.veego.ee/api/v2/search",
+  "json": {
+   "page": 1,
+   "order_by": "Standard",
+   "is_new": 0,
+   "term": "Passat",
+   "year_from": 2015,
+   "body_type_ids": [
+    12
+   ]
+  }
+ },
+ "longo_bmw_q": "https://longo.ee/kataloog/mark/BMW?bodyTypes=Wagon&yearFrom=2018&priceTo=32000&mileageTo=140000&powerKwFrom=110",
+ "longo_bmw_wagon": "https://longo.ee/kataloog/mark/BMW?bodyTypes=Wagon"
 }
