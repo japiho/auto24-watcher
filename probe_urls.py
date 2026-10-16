@@ -15,7 +15,11 @@ out = sys.argv[1]
 res = {}
 for name, url in URLS.items():
     try:
-        r = requests.get(url, headers=H, timeout=30)
+        if isinstance(url, dict):
+            r = requests.post(url["url"], json=url["json"], headers={**H, "Accept": "application/json",
+                              "Origin": "https://veego.ee", "Referer": "https://veego.ee/"}, timeout=30)
+        else:
+            r = requests.get(url, headers=H, timeout=30)
         res[name] = {"url": url, "status": r.status_code, "final": r.url, "server": r.headers.get("server"),
                      "cf_mitigated": r.headers.get("cf-mitigated"), "ctype": r.headers.get("content-type"),
                      "len": len(r.text)}
@@ -28,7 +32,7 @@ for name, url in URLS.items():
 import re
 from urllib.parse import urljoin
 for name, url in URLS.items():
-    if not name.endswith("_js"):
+    if not name.endswith("_js") or isinstance(url, dict):
         continue
     html = open(f"{out}/{name}.txt", encoding="utf-8").read()
     srcs = sorted(set(re.findall(r'(?:src|href)="([^"]+\.js)"', html)))

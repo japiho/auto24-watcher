@@ -1,4 +1,5 @@
 {
-  "veego_js": "https://veego.ee/kasutatud-autod",
-  "longo_bmw_q": "https://longo.ee/kataloog/mark/BMW?driveTypes=AWD&bodyTypes=Wagon&yearFrom=2018&priceTo=32000&mileageTo=140000&powerKwFrom=110"
+  "vg_all": {"url": "https://api.veego.ee/api/v2/search", "json": {"page": 1, "order_by": "Standard", "is_new": 0}},
+  "vg_term": {"url": "https://api.veego.ee/api/v2/search", "json": {"page": 1, "order_by": "Standard", "is_new": 0, "term": "Superb", "year_from": 2019, "price_to": 32000, "kw_from": 100, "mileage_to": 140000}},
+  "vg_makes": "https://api.veego.ee/api/vehicle/makes"
 }
