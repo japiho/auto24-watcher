@@ -1,8 +1,8 @@
 {
-  "veego_home": "https://veego.ee/",
-  "veego_robots": "https://veego.ee/robots.txt",
-  "carprof_cat": "https://carprof.ee/kataloog",
-  "carprof_robots": "https://carprof.ee/robots.txt",
-  "longo_home": "https://longo.ee/",
-  "longo_robots": "https://longo.ee/robots.txt"
+  "veego_list": "https://veego.ee/kasutatud-autod",
+  "veego_list_p2": "https://veego.ee/kasutatud-autod?page=2",
+  "longo_cat": "https://longo.ee/kataloog?orderBy=PUBLISHED_AT_DESC",
+  "carprof_p2": "https://carprof.ee/kataloog?page=2",
+  "veego_sitemap": "https://veego.ee/sitemap.xml",
+  "longo_sitemap": "https://longo.ee/sitemap.xml"
 }
