@@ -120,19 +120,29 @@ def main() -> int:
         return 0
 
     prompt = INSTRUCTIONS.format(today=today, n=len(rows), model=MODEL, rows="\n".join(rows))
-    try:
+    def call(extra: dict) -> dict:
         r = requests.post(
             "https://api.anthropic.com/v1/messages",
             headers={"x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
-            json={"model": MODEL, "max_tokens": 1500, "system": SYSTEM,
-                  "messages": [{"role": "user", "content": prompt}]},
-            timeout=120,
+            json={"model": MODEL, "max_tokens": 8000, "system": SYSTEM,
+                  "messages": [{"role": "user", "content": prompt}], **extra},
+            timeout=180,
         )
         if r.status_code >= 400:
             log(f"API HTTP {r.status_code}: {r.text[:800]}")
         r.raise_for_status()
-        data = r.json()
-        text = "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text").strip()
+        return r.json()
+
+    def text_of(d: dict) -> str:
+        return "".join(b.get("text", "") for b in d.get("content", []) if b.get("type") == "text").strip()
+
+    try:
+        data = call({})
+        text = text_of(data)
+        if "Top 3" not in text:                 # all budget went to reasoning: retry without it
+            log(f"First attempt gave no overview (stop_reason={data.get('stop_reason')}); retrying without thinking")
+            data = call({"thinking": {"type": "disabled"}})
+            text = text_of(data)
     except Exception as e:  # noqa: BLE001 — never break the daily report
         log(f"AI overview failed: {e!r}")
         return 0
