@@ -172,6 +172,14 @@ def enrich_unknown_drive(session, current, old, spec_by_name, limit=40):
     else read it from the car's own page. Cars that turn out to be the wrong
     drive type are dropped from those searches."""
     fetched = 0
+    # same car on another site (same year + exact odometer) with a known drive
+    twin_drive = {}
+    for v in current.values():
+        if v.get("drive") and v.get("year") and v.get("mileage"):
+            twin_drive[(v["year"], v["mileage"])] = v["drive"]
+    for v in current.values():
+        if not v.get("drive") and (v.get("year"), v.get("mileage")) in twin_drive:
+            v["drive"] = twin_drive[(v["year"], v["mileage"])]
     for k in list(current):
         v = current[k]
         need = [n for n in v.get("searches", []) if spec_by_name[n].get("drive")]
@@ -184,11 +192,7 @@ def enrich_unknown_drive(session, current, old, spec_by_name, limit=40):
             continue                                     # looked before, page had no drive
         elif fetched < limit:
             try:
-                html = get(session, v["url"], v["source"])
-                attrs = detail_attrs(html)
-                if fetched < 6:
-                    (ROOT / "debug").mkdir(exist_ok=True)
-                    (ROOT / "debug" / f"detail_{v['source']}_{v['id']}.html").write_text(html, encoding="utf-8")
+                attrs = detail_attrs(get(session, v["url"], v["source"]))
             except Exception as e:  # noqa: BLE001
                 print(f"  detail {v['url']}: {e}", file=sys.stderr)
                 continue
@@ -197,8 +201,10 @@ def enrich_unknown_drive(session, current, old, spec_by_name, limit=40):
             for f in ("drive", "body", "power_kw"):
                 if v.get(f) is None and attrs.get(f) is not None:
                     v[f] = attrs[f]
+    for k in list(current):                              # drop cars now known to be the wrong drive type
+        v = current[k]
         if v.get("drive"):
-            v["searches"] = [n for n in v["searches"] if matches(v, spec_by_name[n])]
+            v["searches"] = [n for n in v.get("searches", []) if matches(v, spec_by_name[n])]
             if not v["searches"]:
                 del current[k]
     print(f"  drive lookups on detail pages: {fetched}")

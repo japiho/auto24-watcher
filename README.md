@@ -1,4 +1,4 @@
-# Car watcher (autoportaal.ee + autodiiler.ee)
+# Car watcher (autoportaal, autodiiler, veego, longo, carprof)
 
 A daily GitHub Actions job that runs your used-car searches and reports:
 
@@ -12,12 +12,19 @@ A car listed on more than one site is marked *also on …*. Each listing's price
 
 | Site | Status | How |
 |---|---|---|
-| autoportaal.ee | ✅ | Filters go in the search URL; results are read from the HTML |
-| autodiiler.ee | ✅ | Reads all listings for the make from the public search pages, then filters locally (model, body, year, price, kW, km) |
-| auto24.ee | ⛔ disabled | Blocks scripts with a Cloudflare security check, even from home connections. Set `"enabled": true` in `searches.json` to retry. |
-| Facebook Marketplace | ✖ not supported | Needs login; Meta's terms forbid scraping |
+| autoportaal.ee | ✅ | Filtered search pages (HTML) |
+| autodiiler.ee | ✅ | All listings per make from public pages, filtered locally (its API is off-limits by robots.txt) |
+| veego.ee | ✅ | The site's own search API (`api.veego.ee`, allowed by its robots.txt) |
+| longo.ee | ✅ | Filtered catalog pages, one query per drive type |
+| carprof.ee | ✅ | Catalog page plus the detail page of each candidate |
+| auto24.ee | ⛔ | Cloudflare security check blocks scripts. The original auto24 URLs are kept in `searches.json` for reference |
+| okidoki.ee | ⛔ | Same Cloudflare block |
+| osta.ee | ⛔ | robots.txt blocks AI agents and scripted searches |
+| Facebook Marketplace | ⛔ | Needs login; Meta's terms forbid scraping |
 
-The scraper only reads pages that the sites' robots.txt allows, waits 2 seconds between pages and runs once a day.
+The scraper waits between requests and runs once a day.
+
+**Drive type (veoskeem)** is shown on every row. Where a listing doesn't say, the watcher checks the car's own page, then the same car on another site (same year and exact mileage). If it's still unknown, the row shows *veoskeem ?* instead of the car being dropped.
 
 ## Getting the report
 
@@ -26,12 +33,18 @@ The scraper only reads pages that the sites' robots.txt allows, waits 2 seconds 
 
 If one site fails on a given day, the report says so, and that site's cars are **not** marked as sold.
 
-## Changing the search
+## Changing the searches
 
-Edit `searches.json`:
+Edit `searches.json`. Each search is defined once and runs on every site:
 
-- **autoportaal:** set up the search on autoportaal.ee/et/kuulutused and paste the URL. Keep `sort=id_desc` (newest first).
-- **autodiiler:** the URL selects the make (`vt=1` = cars, `ba=18` = Mercedes-Benz). Model, body, year, price, power and mileage go in the `filter` block. `model_prefixes: ["C "]` matches C 180/200/220/300/43 AMG… but not CLA/CLS/CLK.
+- `make`: one of Mercedes-Benz, BMW, Skoda, Subaru, Volkswagen. Other makes need their site IDs added in `sources.py`.
+- `model_regex`: matched against the model part of the title. For example, `^C(\b|\d)` matches C 180/220/C-Class but not CLA/CLS.
+- `year_min`, `price_max`, `power_min` (kW), `mileage_max`
+- `bodies`: universaal, mahtuniversaal, sedaan, luukpära, maastur
+- `drive`: nelikvedu / esivedu / tagavedu / null (any)
+- `veego_terms`: free-text terms for veego's search
+
+For a test run without posting an issue, use *Actions → car watcher → Run workflow* and tick **dry run**. The log is saved to the `debug` branch.
 
 ## Schedule and manual runs
 
