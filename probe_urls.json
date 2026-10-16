@@ -1,7 +1,4 @@
 {
-  "veego_api_robots": "https://api.veego.ee/robots.txt",
-  "longo_skoda": "https://longo.ee/kataloog/mark/SKODA",
-  "longo_skoda_awd": "https://longo.ee/kataloog/mark/SKODA?driveTypes=AWD",
-  "longo_skoda_p2": "https://longo.ee/kataloog/mark/SKODA?currentPage=2",
-  "longo_q": "https://longo.ee/kataloog?makes=SKODA&driveTypes=AWD&bodyTypes=Wagon"
+  "veego_js": "https://veego.ee/kasutatud-autod",
+  "longo_bmw_q": "https://longo.ee/kataloog/mark/BMW?driveTypes=AWD&bodyTypes=Wagon&yearFrom=2018&priceTo=32000&mileageTo=140000&powerKwFrom=110"
 }

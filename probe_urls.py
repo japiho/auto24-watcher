@@ -23,5 +23,26 @@ for name, url in URLS.items():
     except Exception as e:
         res[name] = {"url": url, "error": str(e)}
     time.sleep(1)
+
+# For pages named *_js: fetch their JS bundles and save snippets around API paths.
+import re
+from urllib.parse import urljoin
+for name, url in URLS.items():
+    if not name.endswith("_js"):
+        continue
+    html = open(f"{out}/{name}.txt", encoding="utf-8").read()
+    srcs = sorted(set(re.findall(r'(?:src|href)="([^"]+\.js)"', html)))
+    snippets = []
+    for s in srcs:
+        u = urljoin(url, s)
+        try:
+            js = requests.get(u, headers=H, timeout=30).text
+        except Exception as e:
+            snippets.append(f"!! {u}: {e}")
+            continue
+        for m in re.finditer(r'(vehicles?/search|/search|vehicles\?|api/vehicles|"vehicles")', js):
+            snippets.append(f"--- {s} @{m.start()}\n" + js[max(0, m.start() - 300): m.start() + 300])
+    open(f"{out}/{name}_snippets.txt", "w", encoding="utf-8").write(
+        f"{len(srcs)} scripts\n" + "\n".join(snippets[:400]))
 json.dump(res, open(f"{out}/summary.json", "w"), indent=1)
 print(json.dumps(res, indent=1))
