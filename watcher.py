@@ -71,6 +71,12 @@ def fetch(session: requests.Session, url: str) -> str:
     for attempt in range(3):
         try:
             r = session.get(url, headers=HEADERS, timeout=30)
+            if r.status_code >= 400:
+                DEBUG_DIR.mkdir(exist_ok=True)
+                (DEBUG_DIR / f"error_{r.status_code}.html").write_text(r.text, encoding="utf-8")
+                (DEBUG_DIR / f"error_{r.status_code}_headers.txt").write_text(
+                    "\n".join(f"{k}: {v}" for k, v in r.headers.items()), encoding="utf-8"
+                )
             r.raise_for_status()
             return r.text
         except requests.RequestException as e:
