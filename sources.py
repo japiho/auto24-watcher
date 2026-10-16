@@ -239,8 +239,7 @@ def autoportaal(session, s, cache) -> dict:
         for b in s.get("bodies", []):
             if b in AUTOPORTAAL_BODY:
                 q.append(("body_type[]", AUTOPORTAAL_BODY[b]))
-        if s.get("drive"):
-            q.append(("drive[]", AUTOPORTAAL_DRIVE[s["drive"]]))
+        # drive is NOT filtered server-side: cars without a drive value would be dropped
         base = "https://autoportaal.ee/et/kuulutused?" + urlencode(q)
 
         seen_any = {}
@@ -324,7 +323,7 @@ def autodiiler(session, s, cache) -> dict:
                     break
             print(f"  autodiiler: {len(listings)} {make} listings")
             cache[ck] = listings
-        out.update({k: dict(v) for k, v in cache[ck].items() if matches(v, s, strict_unknown=True)})
+        out.update({k: dict(v) for k, v in cache[ck].items() if matches(v, s)})
     return out
 
 
@@ -334,41 +333,59 @@ def autodiiler(session, s, cache) -> dict:
 # --------------------------------------------------------------------------- #
 def veego(session, s, cache) -> dict:
     tag = "veego"
-    out = {}
-    drives = [s["drive"]] if s.get("drive") else list(DRIVES)
     hdr = {**HEADERS, "Accept": "application/json", "Origin": "https://veego.ee", "Referer": "https://veego.ee/"}
-    for drive, term in [(d, t) for d in drives for t in (s.get("veego_terms") or [s["make"]])]:
-        body = {"order_by": "Standard", "is_new": 0, "term": term,
-                "drivetrain_ids": [VEEGO_DRIVE[drive]]}
+
+    def query(term, drive_id=None):
+        body = {"order_by": "Standard", "is_new": 0, "term": term}
+        if drive_id:
+            body["drivetrain_ids"] = [drive_id]
         for k, p in (("year_min", "year_from"), ("price_max", "price_to"),
                      ("power_min", "kw_from"), ("mileage_max", "mileage_to")):
             if s.get(k):
                 body[p] = s[k]
         if s.get("bodies"):
             body["body_type_ids"] = [VEEGO_BODY[b] for b in s["bodies"] if b in VEEGO_BODY]
+        results = []
         for page in range(1, MAX_PAGES):
             body["page"] = page
-            r = _req(session, "POST", "https://api.veego.ee/api/v2/search", tag, json=body, headers=hdr)
-            data = r.json()
-            print(f"    veego term={term!r} drive={drive} page={page}: total={data.get('total')}")
-            for v in data.get("results") or []:
-                title = v.get("title") or ""
-                kw = re.search(r"(\d+)\s*kW", title)
-                out[f"veego:{v['id']}"] = {
-                    "source": "veego", "id": str(v["id"]),
-                    "url": f"https://veego.ee/kasutatud-autod/{v['id']}",
-                    "title": title, "make": s["make"], "model": strip_make(title, all_makes(s)),
-                    "year": to_int(v.get("year")), "price": to_int(v.get("active_price") or v.get("price")),
-                    "mileage": to_int(v.get("odometer")), "power_kw": int(kw.group(1)) if kw else None,
-                    "fuel": {"fuel-abbr-diesel": "Diisel", "fuel-abbr-petrol": "Bensiin"}.get(v.get("fuel"), None),
-                    "body": None,                     # filtered server-side by body_type_ids
-                    "drive": drive,                   # known from the query
-                    "seller": ((v.get("user") or {}).get("name")),
-                }
+            data = _req(session, "POST", "https://api.veego.ee/api/v2/search", tag, json=body, headers=hdr).json()
+            results += data.get("results") or []
             if page >= (data.get("pages") or 0):
                 break
-    # body is filtered by the API (body_type_ids), so it's left unknown per car
-    return {k: v for k, v in out.items() if matches(v, s)}
+        print(f"    veego term={term!r} drive_id={drive_id}: {len(results)}")
+        return results
+
+    out, drive_of = {}, {}
+    for term in s.get("veego_terms") or [s["make"]]:
+        everything = query(term)                       # all cars, including ones with no drive set
+        if not everything:
+            continue
+        for d in DRIVES:                               # label each car's drive
+            for v in query(term, VEEGO_DRIVE[d]):
+                drive_of[v["id"]] = d
+        for v in everything:
+            title = v.get("title") or ""
+            kw = re.search(r"(\d+)\s*kW", title)
+            out[f"veego:{v['id']}"] = {
+                "source": "veego", "id": str(v["id"]),
+                "url": f"https://veego.ee/kasutatud-autod/{v['id']}",
+                "title": title, "make": s["make"], "model": strip_make(title, all_makes(s)),
+                "year": to_int(v.get("year")), "price": to_int(v.get("active_price") or v.get("price")),
+                "mileage": to_int(v.get("odometer")), "power_kw": int(kw.group(1)) if kw else None,
+                "fuel": {"fuel-abbr-diesel": "Diisel", "fuel-abbr-petrol": "Bensiin"}.get(v.get("fuel")),
+                "body": None,                          # filtered server-side (body_type_ids)
+                "drive": drive_of.get(v["id"]),
+                "seller": (v.get("user") or {}).get("name"),
+            }
+    result = {k: v for k, v in out.items() if matches(v, s)}
+    # cars with no drive in the search data: look at their own page (cached for the run)
+    details = cache.setdefault("veego:details", {})
+    for k, v in result.items():
+        if v["drive"] is None and s.get("drive"):
+            if v["id"] not in details and len(details) < 25:
+                details[v["id"]] = detail_attrs(get(session, v["url"], tag))
+            v["drive"] = (details.get(v["id"]) or {}).get("drive")
+    return {k: v for k, v in result.items() if matches(v, s)}
 
 
 # --------------------------------------------------------------------------- #
