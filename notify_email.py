@@ -50,7 +50,7 @@ font-size:14px;line-height:1.5;color:#1f2328;max-width:760px">
 </body></html>"""
 
 msg = EmailMessage()
-msg["Subject"] = f"Autod {today}: {summary}"
+msg["Subject"] = f"{os.environ.get('SUBJECT_PREFIX', '')}Autod {today}: {summary}"
 msg["From"] = f"{sender_name} <{sender}>"
 msg["To"] = ", ".join(to)
 msg.set_content(report + (f"\n\n{issue_url}" if issue_url else ""))

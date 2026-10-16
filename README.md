@@ -53,7 +53,7 @@ Edit `searches.json`. Each search is defined once and runs on every site:
 - `drive`: nelikvedu / esivedu / tagavedu / null (any)
 - `veego_terms`: free-text terms for veego's search
 
-For a test run without posting an issue, use *Actions → car watcher → Run workflow* and tick **dry run**. The log is saved to the `debug` branch.
+For a test run, use *Actions → car watcher → Run workflow* and tick **dry run**. It emails a `[test]` preview (including the AI overview) but posts no issue and saves no state. The log is saved to the `debug` branch.
 
 ## Schedule and manual runs
 
