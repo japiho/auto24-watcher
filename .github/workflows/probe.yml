@@ -21,11 +21,11 @@ jobs:
           import requests, json
           H = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36",
                "Accept-Language": "et-EE,et;q=0.9,en;q=0.8",
-               "Accept": "text/html,application/xhtml+xml,*/*;q=0.8"}
+               "Accept": "application/json, text/html;q=0.9, */*;q=0.8", "Origin": "https://autodiiler.ee", "Referer": "https://autodiiler.ee/"}
           sites = {
-            "ap_search": "https://autoportaal.ee/et/kuulutused?ok=1",
-            "ap_merc": "https://autoportaal.ee/et/mercedes-benz",
-            "ad_search": "https://autodiiler.ee/et/vehicles?page=1&s=default&vt=1&ba=18",
+            "ad_api": "https://garage.autodiiler.ee/api/v1/vehicles?vt=1&ba=18&page=1",
+            "ad_api_robots": "https://garage.autodiiler.ee/robots.txt",
+            "ap_c": "https://autoportaal.ee/et/kuulutused?ok=1&make_id=59&model_id=2117&body_type%5B%5D=3&year_min=2016&price_max=34000&power_min=110&mileage_max=150000&sort=id_desc",
           }
           res = {}
           for name, url in sites.items():
