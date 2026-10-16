@@ -2,12 +2,14 @@
 """
 Email report.md as a formatted HTML email.
 
-Environment (set as GitHub repository secrets):
-  SMTP_USER      sender address, e.g. you@gmail.com
-  SMTP_PASSWORD  Gmail *app password* (not your normal password)
-  EMAIL_TO       optional, comma-separated recipients (default: SMTP_USER)
-  SMTP_HOST      optional, default smtp.gmail.com
-  SMTP_PORT      optional, default 465 (SSL)
+Environment:
+  SMTP_HOST         e.g. mail.veebimajutus.ee
+  SMTP_PORT         465 = implicit SSL, otherwise STARTTLS (same rule as nexara's SmtpEmailService)
+  SMTP_USER         login, e.g. info@kergeraskus.ee
+  SMTP_PASSWORD     secret
+  SMTP_FROM         optional sender address (default: SMTP_USER)
+  SMTP_SENDER_NAME  optional sender name (default: "Car watcher")
+  EMAIL_TO          comma-separated recipients (default: SMTP_USER)
 """
 
 import os
@@ -25,7 +27,9 @@ report = Path(sys.argv[1] if len(sys.argv) > 1 else "report.md").read_text(encod
 user = os.environ["SMTP_USER"]
 password = os.environ["SMTP_PASSWORD"]
 to = [a.strip() for a in (os.environ.get("EMAIL_TO") or user).split(",") if a.strip()]
-host = os.environ.get("SMTP_HOST") or "smtp.gmail.com"
+host = os.environ.get("SMTP_HOST") or "mail.veebimajutus.ee"
+sender = os.environ.get("SMTP_FROM") or user
+sender_name = os.environ.get("SMTP_SENDER_NAME") or "Car watcher"
 port = int(os.environ.get("SMTP_PORT") or 465)
 issue_url = os.environ.get("ISSUE_URL", "")
 
@@ -47,12 +51,17 @@ font-size:14px;line-height:1.5;color:#1f2328;max-width:760px">
 
 msg = EmailMessage()
 msg["Subject"] = f"Autod {today}: {summary}"
-msg["From"] = f"Car watcher <{user}>"
+msg["From"] = f"{sender_name} <{sender}>"
 msg["To"] = ", ".join(to)
 msg.set_content(report + (f"\n\n{issue_url}" if issue_url else ""))
 msg.add_alternative(html, subtype="html")
 
-with smtplib.SMTP_SSL(host, port, timeout=60) as s:
+if port == 465:
+    conn = smtplib.SMTP_SSL(host, port, timeout=60)
+else:
+    conn = smtplib.SMTP(host, port, timeout=60)
+    conn.starttls()
+with conn as s:
     s.login(user, password)
     s.send_message(msg)
 print(f"Email sent to {', '.join(to)}: {msg['Subject']}")

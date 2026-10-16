@@ -11,6 +11,10 @@ on:
         description: "Test run: no issue, no state commit; log saved to the 'debug' branch"
         type: boolean
         default: false
+      test_email:
+        description: "Only send a test email (no scraping)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write   # commit state/listings.json (+ debug branch on failure)
@@ -26,7 +30,7 @@ jobs:
     env:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-      SMTP_USER: ${{ secrets.SMTP_USER }}
+      SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
     steps:
       - uses: actions/checkout@v4
 
@@ -37,14 +41,28 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - name: Send test email
+        if: ${{ inputs.test_email }}
+        env:
+          SMTP_HOST: mail.veebimajutus.ee
+          SMTP_PORT: "465"
+          SMTP_USER: info@kergeraskus.ee
+          SMTP_SENDER_NAME: Autod watcher
+          EMAIL_TO: ${{ vars.EMAIL_TO || 'jakob.pihol@gmail.com' }}
+        run: |
+          test -n "$SMTP_PASSWORD" || { echo "SMTP_PASSWORD secret is not set"; exit 1; }
+          printf '%s\n' "**Test email** from the car watcher." "" "If you can read this, the daily reports will arrive here too." > /tmp/test.md
+          python notify_email.py /tmp/test.md
+
       - name: Scrape and diff
+        if: ${{ !inputs.test_email }}
         run: |
           mkdir -p debug
           set -o pipefail
           python watcher.py 2>&1 | tee debug/run.log
 
       - name: Commit updated state
-        if: ${{ !inputs.dry_run }}
+        if: ${{ !inputs.dry_run && !inputs.test_email }}
         run: |
           git config user.name  "car-watcher"
           git config user.email "actions@users.noreply.github.com"
@@ -64,11 +82,16 @@ jobs:
             --body-file report.md)
           echo "ISSUE_URL=$url" >> "$GITHUB_ENV"
 
-      - name: Email the report (optional)
-        if: ${{ !inputs.dry_run && hashFiles('report.md') != '' && env.SMTP_USER != '' }}
+      - name: Email the report
+        # Same mail server as the nexara app (veebimajutus, info@kergeraskus.ee).
+        # Runs once the SMTP_PASSWORD repository secret is set.
+        if: ${{ !inputs.dry_run && hashFiles('report.md') != '' && env.SMTP_PASSWORD != '' }}
         env:
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          SMTP_HOST: mail.veebimajutus.ee
+          SMTP_PORT: "465"
+          SMTP_USER: info@kergeraskus.ee
+          SMTP_SENDER_NAME: Autod watcher
+          EMAIL_TO: ${{ vars.EMAIL_TO || 'jakob.pihol@gmail.com' }}
         run: python notify_email.py report.md
 
       - name: Send report to Telegram (optional)
