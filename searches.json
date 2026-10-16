@@ -1,29 +1,60 @@
 {
+  "_help": "Each search runs on every site in 'sites'. bodies: universaal, mahtuniversaal, sedaan, luukpära, maastur. drive: esivedu | tagavedu | nelikvedu | null (any). model_regex is matched against the model part of the title (make removed), case-insensitive. 'auto24' is the original auto24.ee search, kept for reference — auto24 blocks scripts, so it isn't scraped.",
+  "sites": ["autoportaal", "autodiiler", "veego", "longo", "carprof"],
   "searches": [
     {
-      "name": "autoportaal: Mercedes C-klass universaal",
-      "source": "autoportaal",
-      "url": "https://autoportaal.ee/et/kuulutused?ok=1&make_id=59&model_id=2117&body_type%5B%5D=3&year_min=2016&price_max=34000&power_min=110&mileage_max=150000&sort=id_desc"
+      "name": "Mercedes C-klass",
+      "make": "Mercedes-Benz", "make_aliases": ["Mercedes-AMG"],
+      "model_regex": "^C(\\b|\\d)",
+      "year_min": 2016, "price_max": 34000, "power_min": 110, "mileage_max": 160000,
+      "bodies": ["universaal", "mahtuniversaal"], "drive": null,
+      "veego_terms": ["Mercedes-Benz C", "Mercedes-AMG C"],
+      "auto24": "https://www.auto24.ee/kasutatud/nimekiri.php?bn=2&a=101102&aj=&ssid=320750548&j%5B%5D=3&j%5B%5D=4&b=12&bw%5B%5D=151&bw%5B%5D=152&f1=2016&g2=34000&k1=110&l2=160000&ae=2&af=100&otsi=otsi"
     },
     {
-      "name": "autodiiler: Mercedes C-klass universaal",
-      "source": "autodiiler",
-      "url": "https://autodiiler.ee/et/vehicles?page=1&s=default&vt=1&ba=18",
-      "filter": {
-        "model_prefixes": ["C "],
-        "body_types": ["Universaal"],
-        "year_min": 2016,
-        "price_max": 34000,
-        "power_min": 110,
-        "mileage_max": 150000
-      }
+      "name": "BMW 3 / 5 seeria",
+      "make": "BMW",
+      "model_regex": "^(M?[35]\\d\\d\\w*|[35](\\b|[ -]?(series|seeria))|M340|M550)",
+      "year_min": 2018, "price_max": 32000, "power_min": 110, "mileage_max": 140000,
+      "bodies": ["universaal", "mahtuniversaal"], "drive": null,
+      "veego_terms": ["BMW 3", "BMW 5"],
+      "auto24": "https://www.auto24.ee/kasutatud/nimekiri.php?bn=2&a=101102&j%5B0%5D=3&j%5B1%5D=4&b=4&bw%5B0%5D=18&bw%5B1%5D=244&f1=2018&g2=32000&k1=110&l2=140000&ae=2&af=100&ssid=320902079"
     },
     {
-      "name": "auto24: Mercedes C-klass universaal",
-      "source": "auto24",
-      "enabled": false,
-      "_note": "auto24 blocks scripts with a Cloudflare check (Oct 2026). Set enabled: true to retry.",
-      "url": "https://www.auto24.ee/kasutatud/nimekiri.php?bn=2&a=101102&j%5B%5D=3&j%5B%5D=4&b=12&bw%5B%5D=151&bw%5B%5D=152&f1=2016&g2=34000&k1=110&l2=150000&ae=1&af=100&otsi=otsi"
+      "name": "Škoda Superb 4x4",
+      "make": "Skoda", "make_aliases": ["Škoda"],
+      "model_regex": "^Superb",
+      "year_min": 2019, "price_max": 32000, "power_min": 100, "mileage_max": 140000,
+      "bodies": ["universaal", "mahtuniversaal"], "drive": "nelikvedu",
+      "veego_terms": ["Superb"],
+      "auto24": "https://www.auto24.ee/kasutatud/nimekiri.php?bn=2&a=100&j%5B0%5D=3&j%5B1%5D=4&b=40&bw%5B0%5D=176&f1=2019&g2=32000&k1=100&l2=140000&p%5B0%5D=3&ae=2&af=50&ssid=320569212"
+    },
+    {
+      "name": "Subaru Outback",
+      "make": "Subaru",
+      "model_regex": "^Outback",
+      "year_min": 2020, "price_max": 30000, "power_min": 100, "mileage_max": 140000,
+      "bodies": ["universaal", "mahtuniversaal"], "drive": "nelikvedu",
+      "veego_terms": ["Outback"],
+      "auto24": "https://www.auto24.ee/kasutatud/nimekiri.php?bn=2&a=100&j%5B0%5D=3&j%5B1%5D=4&b=23&bw%5B0%5D=855&f1=2020&g2=30000&k1=100&l2=140000&p%5B0%5D=3&ae=2&af=100&ssid=320902222"
+    },
+    {
+      "name": "VW Passat / Arteon 4x4",
+      "make": "Volkswagen", "make_aliases": ["VW"],
+      "model_regex": "^(Passat|Arteon)",
+      "year_min": 2019, "price_max": 31000, "power_min": 100, "mileage_max": 140000,
+      "bodies": ["universaal", "mahtuniversaal"], "drive": "nelikvedu",
+      "veego_terms": ["Passat", "Arteon"],
+      "auto24": "https://www.auto24.ee/kasutatud/nimekiri.php?bn=2&a=100&j%5B0%5D=3&j%5B1%5D=4&b=8&bw%5B0%5D=5052&bw%5B1%5D=4&f1=2019&g2=31000&k1=100&l2=140000&p%5B0%5D=3&ae=2&af=100&ssid=320902263"
+    },
+    {
+      "name": "Mercedes C 43 AMG",
+      "make": "Mercedes-Benz", "make_aliases": ["Mercedes-AMG"],
+      "model_regex": "(^|\\s)C[ -]?43\\b",
+      "year_min": 2016,
+      "bodies": ["universaal"], "drive": null,
+      "veego_terms": ["C 43", "C43"],
+      "auto24": "https://www.auto24.ee/kasutatud/nimekiri.php?bn=2&a=101102&aj=&ssid=320902297&j%5B%5D=3&j%5B%5D=4&b=12&bw%5B%5D=1559&f1=2016&ae=2&af=50&otsi=otsi"
     }
   ]
 }
