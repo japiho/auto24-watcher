@@ -43,6 +43,8 @@ and typical parts/labour costs in Estonia.
 Rules:
 - Only use facts from the listing data plus well-established model/engine knowledge. \
 Never invent options, service history or condition.
+- Only name a specific maintenance item (timing belt vs. chain, service intervals, gearbox type) \
+if you are certain it applies to that exact engine and year; otherwise describe the risk generally.
 - Prefer: low running/repair costs, proven engines/gearboxes, lower mileage for the year, \
 fair price for year+km+power, price drops or long time on market (negotiation room).
 - Be cautious about: plug-in hybrids (battery/complexity), known weak engines or gearboxes, \
