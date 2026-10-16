@@ -1,0 +1,87 @@
+User-agent: *
+Disallow: /*=bid.*
+Disallow: /*=item.ajaxinfo
+Disallow: /*=item.bids
+Disallow: /*=item.extraservices
+Disallow: /*=member.*
+Disallow: /*=picupload.*
+Disallow: /*=sell.*
+Disallow: /*=analytics.*
+Disallow: /*/foorum*
+Disallow: /*/forum*
+Disallow: /*=forum.*
+Disallow: /foorum$
+Disallow: /foorum/
+Disallow: /foorum?
+Disallow: /*printable=1*
+Disallow: /*output=json*
+Allow: /*/forum*.html
+Allow: /*/foorum*.html
+Disallow: /*=search.search&*
+Disallow: /*=search.search$
+Disallow: /*q%5B*
+Disallow: /*q[*
+Disallow: /*pagesize=*
+Disallow: /*orderby=*
+Disallow: /*is_shop*
+Disallow: /*shop_id=*
+Disallow: /*start=*
+
+Sitemap: https://www.osta.ee/sitemap.xml
+
+#<block AI bots>
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: GoogleOther
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: OmigiliBot
+Disallow: /
+
+User-agent: Omigili
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: GoogleOther
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+Allow: /ads.txt
+#</block AI bots>

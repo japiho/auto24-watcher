@@ -1,0 +1,38 @@
+{
+ "osta_cat": {
+  "url": "https://www.osta.ee/kategooria/automoto",
+  "status": 200,
+  "final": "https://www.osta.ee/kategooria/automoto",
+  "server": "cloudflare",
+  "cf_mitigated": null,
+  "ctype": "text/html; charset=UTF-8",
+  "len": 1594328
+ },
+ "osta_robots": {
+  "url": "https://www.osta.ee/robots.txt",
+  "status": 200,
+  "final": "https://www.osta.ee/robots.txt",
+  "server": "cloudflare",
+  "cf_mitigated": null,
+  "ctype": "text/plain; charset=UTF-8",
+  "len": 1368
+ },
+ "oki_auto": {
+  "url": "https://www.okidoki.ee/auto/",
+  "status": 403,
+  "final": "https://www.okidoki.ee/auto/",
+  "server": "cloudflare",
+  "cf_mitigated": "challenge",
+  "ctype": "text/html; charset=UTF-8",
+  "len": 5750
+ },
+ "oki_robots": {
+  "url": "https://www.okidoki.ee/robots.txt",
+  "status": 200,
+  "final": "https://www.okidoki.ee/robots.txt",
+  "server": "cloudflare",
+  "cf_mitigated": null,
+  "ctype": "text/plain",
+  "len": 1404
+ }
+}
