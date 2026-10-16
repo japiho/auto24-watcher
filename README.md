@@ -8,6 +8,8 @@ A daily GitHub Actions job that checks auto24.ee searches and reports:
 
 Each listing's price history is kept in `state/listings.json`, which the job commits back to the repo every day.
 
+> **Where it runs:** auto24 blocks GitHub's servers with a Cloudflare security check, so the daily run happens on an always-on Android phone via Termux. See **[PHONE_SETUP.md](PHONE_SETUP.md)**. The GitHub Actions workflow is kept for manual runs only. Below, "the job" means the phone run.
+
 ## How you get the report
 
 - **GitHub issue (default, no setup):** when something changes, the job opens an issue titled `auto24 DD.MM.YYYY`. GitHub emails you about it and it shows up in the GitHub mobile app. Days with no changes produce no issue.

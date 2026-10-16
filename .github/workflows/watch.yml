@@ -1,11 +1,12 @@
 name: auto24 watcher
 
+# The daily schedule is OFF: auto24 blocks GitHub's servers with a Cloudflare
+# check, so the daily run happens on the phone instead (see PHONE_SETUP.md).
+# This workflow is kept for manual runs only, in case that ever changes.
 on:
-  schedule:
-    # 04:47 UTC = 07:47 Tallinn in summer, 06:47 in winter.
-    # GitHub cron is UTC-only and often runs 5–30 min late.
-    - cron: "47 4 * * *"
   workflow_dispatch: {}   # "Run workflow" button for manual runs
+  # schedule:
+  #   - cron: "47 4 * * *"   # 07:47 Tallinn (summer) / 06:47 (winter)
 
 permissions:
   contents: write   # commit state/listings.json
