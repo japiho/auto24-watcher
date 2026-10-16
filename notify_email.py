@@ -5,7 +5,7 @@ Email report.md as a formatted HTML email.
 Environment:
   SMTP_HOST         e.g. mail.veebimajutus.ee
   SMTP_PORT         465 = implicit SSL, otherwise STARTTLS (same rule as nexara's SmtpEmailService)
-  SMTP_USER         login, e.g. info@kergeraskus.ee
+  SMTP_USER         login, e.g. jakob@kergeraskus.ee
   SMTP_PASSWORD     secret
   SMTP_FROM         optional sender address (default: SMTP_USER)
   SMTP_SENDER_NAME  optional sender name (default: "Car watcher")

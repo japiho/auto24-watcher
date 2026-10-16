@@ -46,7 +46,7 @@ jobs:
         env:
           SMTP_HOST: mail.veebimajutus.ee
           SMTP_PORT: "465"
-          SMTP_USER: info@kergeraskus.ee
+          SMTP_USER: jakob@kergeraskus.ee
           SMTP_SENDER_NAME: Autod watcher
           EMAIL_TO: ${{ vars.EMAIL_TO || 'jakob.pihol@gmail.com' }}
         run: |
@@ -83,13 +83,13 @@ jobs:
           echo "ISSUE_URL=$url" >> "$GITHUB_ENV"
 
       - name: Email the report
-        # Same mail server as the nexara app (veebimajutus, info@kergeraskus.ee).
+        # Same mail server as the nexara app (veebimajutus), sent as jakob@kergeraskus.ee.
         # Runs once the SMTP_PASSWORD repository secret is set.
         if: ${{ !inputs.dry_run && hashFiles('report.md') != '' && env.SMTP_PASSWORD != '' }}
         env:
           SMTP_HOST: mail.veebimajutus.ee
           SMTP_PORT: "465"
-          SMTP_USER: info@kergeraskus.ee
+          SMTP_USER: jakob@kergeraskus.ee
           SMTP_SENDER_NAME: Autod watcher
           EMAIL_TO: ${{ vars.EMAIL_TO || 'jakob.pihol@gmail.com' }}
         run: python notify_email.py report.md
