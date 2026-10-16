@@ -1,19 +1,18 @@
-name: auto24 watcher
+name: car watcher
 
-# The daily schedule is OFF: auto24 blocks GitHub's servers with a Cloudflare
-# check, so the daily run happens on the phone instead (see PHONE_SETUP.md).
-# This workflow is kept for manual runs only, in case that ever changes.
 on:
+  schedule:
+    # 04:47 UTC = 07:47 Tallinn in summer, 06:47 in winter.
+    # GitHub cron is UTC-only and often runs 5–30 min late.
+    - cron: "47 4 * * *"
   workflow_dispatch: {}   # "Run workflow" button for manual runs
-  # schedule:
-  #   - cron: "47 4 * * *"   # 07:47 Tallinn (summer) / 06:47 (winter)
 
 permissions:
-  contents: write   # commit state/listings.json
+  contents: write   # commit state/listings.json (+ debug branch on failure)
   issues: write     # post the daily report as an issue
 
 concurrency:
-  group: auto24-watcher
+  group: car-watcher
   cancel-in-progress: false
 
 jobs:
@@ -40,7 +39,7 @@ jobs:
 
       - name: Commit updated state
         run: |
-          git config user.name  "auto24-watcher"
+          git config user.name  "car-watcher"
           git config user.email "actions@users.noreply.github.com"
           git add state/listings.json
           git diff --cached --quiet || git commit -m "Snapshot $(date -u +%F)"
@@ -51,29 +50,21 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh label create auto24 --color 0E8A16 --force >/dev/null 2>&1 || true
+          gh label create cars --color 0E8A16 --force >/dev/null 2>&1 || true
           gh issue create \
-            --title "auto24 $(TZ=Europe/Tallinn date +%d.%m.%Y)" \
-            --label auto24 \
+            --title "Autod $(TZ=Europe/Tallinn date +%d.%m.%Y)" \
+            --label cars \
             --body-file report.md
 
       - name: Send report to Telegram (optional)
         if: hashFiles('report.md') != '' && env.TELEGRAM_BOT_TOKEN != ''
         run: python notify_telegram.py report.md
 
-      - name: Upload page HTML on failure (for debugging)
-        if: failure()
-        uses: actions/upload-artifact@v4
-        with:
-          name: debug-html
-          path: debug/
-          retention-days: 7
-
       - name: Save debug output to the 'debug' branch on failure
         if: failure()
         run: |
           cp -r debug /tmp/debug
-          git config user.name  "auto24-watcher"
+          git config user.name  "car-watcher"
           git config user.email "actions@users.noreply.github.com"
           git checkout --orphan debug-tmp
           git rm -rf --quiet . || true

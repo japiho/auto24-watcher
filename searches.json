@@ -1,7 +1,28 @@
 {
   "searches": [
     {
-      "name": "Mercedes C-klass universaal",
+      "name": "autoportaal: Mercedes C-klass universaal",
+      "source": "autoportaal",
+      "url": "https://autoportaal.ee/et/kuulutused?ok=1&make_id=59&model_id=2117&body_type%5B%5D=3&year_min=2016&price_max=34000&power_min=110&mileage_max=150000&sort=id_desc"
+    },
+    {
+      "name": "autodiiler: Mercedes C-klass universaal",
+      "source": "autodiiler",
+      "url": "https://autodiiler.ee/et/vehicles?page=1&s=default&vt=1&ba=18",
+      "filter": {
+        "model_prefixes": ["C "],
+        "body_types": ["Universaal"],
+        "year_min": 2016,
+        "price_max": 34000,
+        "power_min": 110,
+        "mileage_max": 150000
+      }
+    },
+    {
+      "name": "auto24: Mercedes C-klass universaal",
+      "source": "auto24",
+      "enabled": false,
+      "_note": "auto24 blocks scripts with a Cloudflare check (Oct 2026). Set enabled: true to retry.",
       "url": "https://www.auto24.ee/kasutatud/nimekiri.php?bn=2&a=101102&j%5B%5D=3&j%5B%5D=4&b=12&bw%5B%5D=151&bw%5B%5D=152&f1=2016&g2=34000&k1=110&l2=150000&ae=1&af=100&otsi=otsi"
     }
   ]

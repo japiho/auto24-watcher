@@ -1,230 +1,81 @@
 #!/usr/bin/env python3
 """
-auto24.ee search watcher.
+Used-car search watcher for Estonian sites (autoportaal.ee, autodiiler.ee, auto24.ee).
 
-Fetches one or more auto24 search result URLs, compares the listings with the
-previous snapshot (state/listings.json) and writes a Markdown report of:
-  - new listings
-  - price changes
-  - removed listings (probably sold)
+Runs every search in searches.json, compares with the previous snapshot
+(state/listings.json) and writes report.md with new listings, price changes and
+removed listings. Cars listed on several sites are flagged.
 
-Exit codes:
-  0  ran fine (report.md written only when something changed)
-  1  scraping failed / looked broken (no listings parsed, count mismatch, ...)
+Exit codes: 0 = ran (report.md only written when something changed),
+            1 = every enabled source failed.
+A single source failing doesn't stop the others; it is reported in report.md.
 """
 
 from __future__ import annotations
 
 import json
-import os
-import re
 import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 import requests
-from bs4 import BeautifulSoup
+
+from sources import SOURCES, ScrapeError
 
 ROOT = Path(__file__).resolve().parent
 CONFIG_FILE = ROOT / "searches.json"
 STATE_FILE = ROOT / "state" / "listings.json"
 REPORT_FILE = ROOT / "report.md"
-DEBUG_DIR = ROOT / "debug"
 
-BASE = "https://www.auto24.ee"
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/129.0 Safari/537.36"
-    ),
-    "Accept-Language": "et-EE,et;q=0.9,en;q=0.8",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-}
-
-LISTING_HREF = re.compile(r"/soidukid/(\d+)")
-YEAR_RE = re.compile(r"\b(19[89]\d|20[0-4]\d)\b")
-KM_RE = re.compile(r"(\d[\d\s ]*)\s*km\b")
-PRICE_RE = re.compile(r"(\d[\d\s ]*)\s*€")
-TOTAL_RE = re.compile(r"Kokku:\s*(?:<[^>]+>)?\s*(\d+)")
-FUELS = [
-    "Pistikhübriid (bensiin / elekter)", "Pistikhübriid (diisel / elekter)",
-    "Hübriid (bensiin / elekter)", "Hübriid (diisel / elekter)", "Hübriid",
-    "Bensiin + gaas", "Bensiin", "Diisel", "Elekter",
-]
+SITE_NAMES = {"autoportaal": "autoportaal", "autodiiler": "autodiiler", "auto24": "auto24"}
 
 
 # --------------------------------------------------------------------------- #
-# Fetching
-# --------------------------------------------------------------------------- #
-def with_page(url: str, page: int) -> str:
-    """Return url with ak=<offset> for pagination (auto24 uses ak = row offset)."""
-    parts = urlsplit(url)
-    q = [(k, v) for k, v in parse_qsl(parts.query, keep_blank_values=True) if k != "ak"]
-    per_page = int(dict(q).get("af", 50) or 50)
-    q.append(("ak", str(page * per_page)))
-    return urlunsplit(parts._replace(query=urlencode(q)))
-
-
-def fetch(session: requests.Session, url: str) -> str:
-    for attempt in range(3):
-        try:
-            r = session.get(url, headers=HEADERS, timeout=30)
-            if r.status_code >= 400:
-                DEBUG_DIR.mkdir(exist_ok=True)
-                (DEBUG_DIR / f"error_{r.status_code}.html").write_text(r.text, encoding="utf-8")
-                (DEBUG_DIR / f"error_{r.status_code}_headers.txt").write_text(
-                    "\n".join(f"{k}: {v}" for k, v in r.headers.items()), encoding="utf-8"
-                )
-            r.raise_for_status()
-            return r.text
-        except requests.RequestException as e:
-            if attempt == 2:
-                raise
-            print(f"  fetch failed ({e}); retrying…", file=sys.stderr)
-            time.sleep(5 * (attempt + 1))
-    raise RuntimeError("unreachable")
-
-
-# --------------------------------------------------------------------------- #
-# Parsing
-# --------------------------------------------------------------------------- #
-def clean_int(s: str) -> int | None:
-    digits = re.sub(r"\D", "", s or "")
-    return int(digits) if digits else None
-
-
-def find_row(a_tag):
-    """Walk up from a listing link to the element that holds the whole row."""
-    node = a_tag
-    for _ in range(8):
-        node = node.parent
-        if node is None:
-            return None
-        cls = " ".join(node.get("class", []))
-        if "result-row" in cls or node.get("data-hsh"):
-            return node
-        # fallback: a container that has a price and km inside
-        txt = node.get_text(" ", strip=True)
-        if "€" in txt and " km" in txt and len(LISTING_HREF.findall(str(node))) <= 6:
-            return node
-    return None
-
-
-def parse_listings(html: str) -> tuple[dict[str, dict], int | None]:
-    soup = BeautifulSoup(html, "html.parser")
-    total = None
-    m = TOTAL_RE.search(html)
-    if m:
-        total = int(m.group(1))
-
-    listings: dict[str, dict] = {}
-    # Restrict to the main results list when we can find it, so the
-    # "related ads" carousel in the middle of the page is ignored.
-    container = soup.select_one("#usedVehiclesSearchResult") or soup.select_one(
-        ".search-result"
-    ) or soup
-
-    for a in container.find_all("a", href=LISTING_HREF):
-        m = LISTING_HREF.search(a["href"])
-        lid = m.group(1)
-        if lid in listings:
-            continue
-        row = find_row(a)
-        if row is None:
-            continue
-        text = row.get_text(" ", strip=True)
-        # carousel/"similar" cards say "EUR" not "€" and have no km — skip
-        if " km" not in text:
-            continue
-
-        # Title: prefer the explicit title element, else the link text
-        title_el = row.select_one(".title a, .title, a.main")
-        title = (title_el.get_text(" ", strip=True) if title_el else a.get_text(" ", strip=True))
-        title = re.sub(r"\s+", " ", title).strip() or f"Listing {lid}"
-
-        price_el = row.select_one(".price, .pv")
-        price_txt = price_el.get_text(" ", strip=True) if price_el else text
-        pm = PRICE_RE.search(price_txt)
-        price = clean_int(pm.group(1)) if pm else None
-
-        km_el = row.select_one(".mileage")
-        kmm = KM_RE.search(km_el.get_text(" ", strip=True) if km_el else text)
-        mileage = clean_int(kmm.group(1)) if kmm else None
-
-        year_el = row.select_one(".year")
-        ym = YEAR_RE.search(year_el.get_text() if year_el else text)
-        year = int(ym.group(1)) if ym else None
-
-        fuel = next((f for f in FUELS if f.lower() in text.lower()), None)
-
-        listings[lid] = {
-            "id": lid,
-            "url": f"{BASE}/soidukid/{lid}",
-            "title": title,
-            "year": year,
-            "price": price,
-            "mileage": mileage,
-            "fuel": fuel,
-        }
-    return listings, total
-
-
-def scrape_search(session, name: str, url: str) -> dict[str, dict]:
-    print(f"[{name}] {url}")
-    found: dict[str, dict] = {}
-    total = None
-    for page in range(20):  # hard stop
-        html = fetch(session, with_page(url, page) if page else url)
-        items, page_total = parse_listings(html)
-        if page == 0:
-            total = page_total
-            DEBUG_DIR.mkdir(exist_ok=True)
-            (DEBUG_DIR / f"{slug(name)}.html").write_text(html, encoding="utf-8")
-        new = {k: v for k, v in items.items() if k not in found}
-        found.update(new)
-        if not new or total is None or len(found) >= total:
-            break
-        time.sleep(2)
-    print(f"  parsed {len(found)} listings (site says {total})")
-    if total is not None and total > 0 and len(found) == 0:
-        raise RuntimeError(f"[{name}] site reports {total} results but 0 were parsed — markup changed?")
-    if total is not None and len(found) < total:
-        print(f"  WARNING: parsed {len(found)} < site total {total}", file=sys.stderr)
-    for v in found.values():
-        v["search"] = name
-    return found
-
-
-def slug(s: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-") or "search"
-
-
-# --------------------------------------------------------------------------- #
-# Diff + report
-# --------------------------------------------------------------------------- #
-def eur(n: int | None) -> str:
+def eur(n) -> str:
     return "?" if n is None else f"{n:,}".replace(",", " ") + " €"
 
 
-def km(n: int | None) -> str:
+def km(n) -> str:
     return "?" if n is None else f"{n:,}".replace(",", " ") + " km"
 
 
-def line(v: dict) -> str:
+def twin_key(v: dict):
+    """Same physical car on two sites: same year and exact odometer reading."""
+    if v.get("year") and v.get("mileage"):
+        return (v["year"], v["mileage"])
+    return None
+
+
+def also_on(v: dict, current: dict) -> str:
+    k = twin_key(v)
+    if not k:
+        return ""
+    others = sorted({
+        o["source"] for o in current.values()
+        if o["source"] != v["source"] and twin_key(o) == k
+    })
+    return f" · _also on {', '.join(others)}_" if others else ""
+
+
+def line(v: dict, current: dict) -> str:
     bits = [str(v.get("year") or "?"), km(v.get("mileage"))]
+    if v.get("power_kw"):
+        bits.append(f"{v['power_kw']} kW")
     if v.get("fuel"):
         bits.append(v["fuel"])
-    return f"[{v['title']}]({v['url']}) — **{eur(v.get('price'))}** · " + " · ".join(bits)
+    reserved = " · **broneeritud**" if v.get("reserved") else ""
+    return (f"`{v['source']}` [{v['title']}]({v['url']}) — **{eur(v.get('price'))}** · "
+            + " · ".join(bits) + reserved + also_on(v, current))
 
 
-def diff(old: dict, new: dict, today: str):
+# --------------------------------------------------------------------------- #
+def diff(old: dict, new: dict, today: str, ok_sources: set[str]):
     added, changed, removed = [], [], []
     merged: dict[str, dict] = {}
 
-    for lid, cur in new.items():
-        prev = old.get(lid)
+    for key, cur in new.items():
+        prev = old.get(key)
         if prev is None:
             cur["first_seen"] = today
             cur["price_history"] = [[today, cur["price"]]]
@@ -237,28 +88,39 @@ def diff(old: dict, new: dict, today: str):
                 hist = hist + [[today, cur["price"]]]
             cur["price_history"] = hist
         cur["last_seen"] = today
-        merged[lid] = cur
+        merged[key] = cur
 
-    for lid, prev in old.items():
-        if lid not in new:
-            removed.append(prev)
-
+    for key, prev in old.items():
+        if key in new:
+            continue
+        if prev.get("source") in ok_sources:
+            removed.append(prev)          # source worked and the car is gone
+        else:
+            merged[key] = prev            # source failed today — keep it, don't call it sold
     return added, changed, removed, merged
 
 
-def build_report(added, changed, removed, total_now: int, today: str) -> str:
-    out = [f"**{total_now}** listings tracked today ({today}).", ""]
+def build_report(added, changed, removed, current, failures, today) -> str:
+    per_site = {}
+    for v in current.values():
+        per_site[v["source"]] = per_site.get(v["source"], 0) + 1
+    sites = ", ".join(f"{SITE_NAMES.get(s, s)} {n}" for s, n in sorted(per_site.items()))
+    out = [f"**{len(current)}** listings tracked ({sites}) — {today}", ""]
+
+    if failures:
+        out.append("⚠️ **Not checked today:** " + "; ".join(failures))
+        out.append("")
     if added:
         out.append(f"### 🆕 New listings ({len(added)})")
-        out += [f"- {line(v)}" for v in sorted(added, key=lambda x: x.get("price") or 0)]
+        out += [f"- {line(v, current)}" for v in sorted(added, key=lambda x: x.get("price") or 0)]
         out.append("")
     if changed:
         out.append(f"### 💶 Price changes ({len(changed)})")
-        for prev, cur in sorted(changed, key=lambda pc: (pc[1]["price"] - pc[0]["price"])):
-            d = cur["price"] - prev["price"]
+        for prev, cur in sorted(changed, key=lambda pc: cur_delta(pc)):
+            d = cur_delta((prev, cur))
             arrow = "🔻" if d < 0 else "🔺"
             out.append(
-                f"- {arrow} [{cur['title']}]({cur['url']}): {eur(prev['price'])} → "
+                f"- {arrow} `{cur['source']}` [{cur['title']}]({cur['url']}): {eur(prev['price'])} → "
                 f"**{eur(cur['price'])}** ({'+' if d > 0 else '−'}{eur(abs(d))}) · "
                 f"{cur.get('year') or '?'} · {km(cur.get('mileage'))}"
             )
@@ -273,59 +135,80 @@ def build_report(added, changed, removed, total_now: int, today: str) -> str:
                     days = f" · listed ~{(datetime.fromisoformat(today).date() - d0).days} days"
                 except ValueError:
                     pass
-            out.append(f"- ~~{v['title']}~~ — last {eur(v.get('price'))}{days} ([link]({v['url']}))")
+            out.append(f"- `{v['source']}` ~~{v['title']}~~ — last {eur(v.get('price'))}{days} ([link]({v['url']}))")
         out.append("")
     return "\n".join(out)
+
+
+def cur_delta(pc) -> int:
+    return pc[1]["price"] - pc[0]["price"]
 
 
 # --------------------------------------------------------------------------- #
 def main() -> int:
     cfg = json.loads(CONFIG_FILE.read_text(encoding="utf-8"))
-    searches = cfg["searches"]
+    searches = [s for s in cfg["searches"] if s.get("enabled", True)]
     today = datetime.now(timezone.utc).date().isoformat()
 
     session = requests.Session()
     current: dict[str, dict] = {}
-    try:
-        for s in searches:
-            current.update(scrape_search(session, s["name"], s["url"]))
-            time.sleep(2)
-    except Exception as e:  # noqa: BLE001
-        print(f"ERROR: {e}", file=sys.stderr)
+    ok_sources: set[str] = set()
+    failures: list[str] = []
+
+    for s in searches:
+        src = s["source"]
+        print(f"[{s['name']}] {src}: {s['url']}")
+        try:
+            got = SOURCES[src](session, s)
+        except (ScrapeError, requests.RequestException, ValueError, KeyError) as e:
+            print(f"  ERROR: {e}", file=sys.stderr)
+            failures.append(f"{s['name']} ({e})")
+            continue
+        print(f"  {len(got)} matching listings")
+        for v in got.values():
+            v["search"] = s["name"]
+        current.update(got)
+        ok_sources.add(src)
+        time.sleep(2)
+
+    if not ok_sources:
+        print("ERROR: every source failed", file=sys.stderr)
         return 1
 
     first_run = not STATE_FILE.exists()
     old = {} if first_run else json.loads(STATE_FILE.read_text(encoding="utf-8"))
 
-    # Guard against a half-broken scrape wiping state: if we suddenly see far
-    # fewer listings than before, don't treat them all as sold.
-    if old and len(current) < 0.5 * len(old):
-        print(
-            f"ERROR: only {len(current)} listings vs {len(old)} yesterday — "
-            "refusing to update state (site change or block?)",
-            file=sys.stderr,
-        )
-        return 1
+    # Guard: a source that suddenly returns far fewer cars is more likely broken
+    # than sold out. Treat it as failed for today.
+    for src in list(ok_sources):
+        before = sum(1 for v in old.values() if v.get("source") == src)
+        now = sum(1 for v in current.values() if v["source"] == src)
+        if before >= 6 and now < 0.5 * before:
+            print(f"ERROR: {src} returned {now} vs {before} before — ignoring it today", file=sys.stderr)
+            failures.append(f"{src} (only {now} listings vs {before} before — site change?)")
+            ok_sources.discard(src)
+            current = {k: v for k, v in current.items() if v["source"] != src}
 
-    added, changed, removed, merged = diff(old, current, today)
+    added, changed, removed, merged = diff(old, current, today, ok_sources)
 
     STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
     STATE_FILE.write_text(json.dumps(merged, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
 
     if first_run:
-        report = (
-            f"First run — baseline saved with **{len(merged)}** listings. "
-            "From tomorrow you'll get new listings and price changes here.\n\n"
-            + "\n".join(f"- {line(v)}" for v in sorted(merged.values(), key=lambda x: x.get("price") or 0))
+        body = "\n".join(f"- {line(v, current)}" for v in sorted(current.values(), key=lambda x: x.get("price") or 0))
+        warn = ("\n\n⚠️ **Not checked:** " + "; ".join(failures)) if failures else ""
+        REPORT_FILE.write_text(
+            f"First run — baseline saved with **{len(current)}** listings. "
+            f"From now on you'll get new listings and price changes here.{warn}\n\n{body}\n",
+            encoding="utf-8",
         )
-        REPORT_FILE.write_text(report, encoding="utf-8")
-    elif added or changed or removed:
-        REPORT_FILE.write_text(build_report(added, changed, removed, len(merged), today), encoding="utf-8")
+    elif added or changed or removed or failures:
+        REPORT_FILE.write_text(build_report(added, changed, removed, merged, failures, today), encoding="utf-8")
     else:
         print("No changes.")
         REPORT_FILE.unlink(missing_ok=True)
 
-    print(f"new={len(added)} changed={len(changed)} removed={len(removed)} total={len(merged)}")
+    print(f"new={len(added)} changed={len(changed)} removed={len(removed)} total={len(merged)} failed={len(failures)}")
     return 0
 
 
