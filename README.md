@@ -29,6 +29,10 @@ The scraper waits between requests and runs once a day.
 ## Getting the report
 
 - **GitHub issue (default):** when something changes, the job opens an issue titled `Autod DD.MM.YYYY`. GitHub emails you, and it shows up in the GitHub mobile app. Days with no changes produce no issue.
+- **Email (optional):** the report as a formatted email, with the subject summarising the day (e.g. `Autod 17.10.2026: 3 new, 2 price changes`). Sent through your Gmail. Add repository secrets under *Settings → Secrets and variables → Actions*:
+  - `SMTP_USER`: your Gmail address
+  - `SMTP_PASSWORD`: a Gmail **app password**, not your normal password. Create one at <https://myaccount.google.com/apppasswords> (requires 2-step verification).
+  - `EMAIL_TO` (optional): recipients, comma-separated. Defaults to `SMTP_USER`.
 - **Telegram (optional):** add repository secrets `TELEGRAM_BOT_TOKEN` (from [@BotFather](https://t.me/BotFather)) and `TELEGRAM_CHAT_ID` (send your bot a message, then read `chat.id` from `https://api.telegram.org/bot<TOKEN>/getUpdates`).
 
 If one site fails on a given day, the report says so, and that site's cars are **not** marked as sold.

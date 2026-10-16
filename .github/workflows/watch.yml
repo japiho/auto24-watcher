@@ -26,6 +26,7 @@ jobs:
     env:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      SMTP_USER: ${{ secrets.SMTP_USER }}
     steps:
       - uses: actions/checkout@v4
 
@@ -57,10 +58,18 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh label create cars --color 0E8A16 --force >/dev/null 2>&1 || true
-          gh issue create \
+          url=$(gh issue create \
             --title "Autod $(TZ=Europe/Tallinn date +%d.%m.%Y)" \
             --label cars \
-            --body-file report.md
+            --body-file report.md)
+          echo "ISSUE_URL=$url" >> "$GITHUB_ENV"
+
+      - name: Email the report (optional)
+        if: ${{ !inputs.dry_run && hashFiles('report.md') != '' && env.SMTP_USER != '' }}
+        env:
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: python notify_email.py report.md
 
       - name: Send report to Telegram (optional)
         if: ${{ !inputs.dry_run && hashFiles('report.md') != '' && env.TELEGRAM_BOT_TOKEN != '' }}
