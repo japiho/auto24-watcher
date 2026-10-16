@@ -1,0 +1,7847 @@
+{
+ "autodiiler:14648": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "14648",
+  "last_seen": "2026-10-16",
+  "make": "Volkswagen",
+  "mileage": 110500,
+  "model": "Passat",
+  "power_kw": 147,
+  "price": 23500,
+  "price_history": [
+   [
+    "2026-10-16",
+    23500
+   ]
+  ],
+  "reserved": false,
+  "searches": [
+   "VW Passat / Arteon 4x4"
+  ],
+  "seller": "Eraisik",
+  "source": "autodiiler",
+  "title": "Volkswagen Passat R-Line 2.0 147kW",
+  "url": "https://autodiiler.ee/et/vehicles/14648",
+  "year": 2021
+ },
+ "autodiiler:24677": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid + bensiin",
+  "id": "24677",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 96000,
+  "model": "330",
+  "power_kw": 215,
+  "price": 27000,
+  "price_history": [
+   [
+    "2026-10-16",
+    27000
+   ]
+  ],
+  "reserved": false,
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Eraisik",
+  "source": "autodiiler",
+  "title": "BMW 330 PHEV - Sportline - Xdrive 2.0 215kW",
+  "url": "https://autodiiler.ee/et/vehicles/24677",
+  "year": 2021
+ },
+ "autodiiler:48068": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid + bensiin",
+  "id": "48068",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 55404,
+  "model": "C 43 AMG",
+  "power_kw": 300,
+  "price": 54900,
+  "price_history": [
+   [
+    "2026-10-16",
+    54900
+   ]
+  ],
+  "reserved": false,
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Nordauto",
+  "source": "autodiiler",
+  "title": "Mercedes-Benz C 43 AMG 2.0 (300 kW) 2.0 300kW",
+  "url": "https://autodiiler.ee/et/vehicles/48068",
+  "year": 2023
+ },
+ "autodiiler:55348": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid + bensiin",
+  "id": "55348",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 12557,
+  "model": "C 43 AMG",
+  "power_kw": 300,
+  "price": 56900,
+  "price_history": [
+   [
+    "2026-10-16",
+    56900
+   ]
+  ],
+  "reserved": false,
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Nordauto",
+  "source": "autodiiler",
+  "title": "Mercedes-Benz C 43 AMG 2.0 (300 kW) 2.0 300kW",
+  "url": "https://autodiiler.ee/et/vehicles/55348",
+  "year": 2023
+ },
+ "autodiiler:63165": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid + diisel",
+  "id": "63165",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 138200,
+  "model": "320",
+  "power_kw": 140,
+  "price": 27900,
+  "price_history": [
+   [
+    "2026-10-16",
+    27900
+   ]
+  ],
+  "reserved": false,
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "United Motors Peetri",
+  "source": "autodiiler",
+  "title": "BMW 320 Touring 140 kW 2.0 140kW",
+  "url": "https://autodiiler.ee/et/vehicles/63165",
+  "year": 2023
+ },
+ "autodiiler:64427": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid + bensiin",
+  "id": "64427",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 132500,
+  "model": "530",
+  "power_kw": 135,
+  "price": 30900,
+  "price_history": [
+   [
+    "2026-10-16",
+    30900
+   ]
+  ],
+  "reserved": false,
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Premium Select Luxury",
+  "source": "autodiiler",
+  "title": "BMW 530 xDrive M-Sportpakett 2.0 AWD 215 kW 2.0 135kW",
+  "url": "https://autodiiler.ee/et/vehicles/64427",
+  "year": 2021
+ },
+ "autodiiler:66927": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "66927",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 130875,
+  "model": "320",
+  "power_kw": 140,
+  "price": 23199,
+  "price_history": [
+   [
+    "2026-10-16",
+    23199
+   ]
+  ],
+  "reserved": false,
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Longo",
+  "source": "autodiiler",
+  "title": "BMW 320 Luxury Line 2.0 140kW",
+  "url": "https://autodiiler.ee/et/vehicles/66927",
+  "year": 2020
+ },
+ "autodiiler:71338": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid + diisel",
+  "id": "71338",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 100700,
+  "model": "C 200",
+  "power_kw": 120,
+  "price": 32900,
+  "price_history": [
+   [
+    "2026-10-16",
+    32900
+   ]
+  ],
+  "reserved": false,
+  "searches": [
+   "Mercedes C-klass"
+  ],
+  "seller": "Premium Select Luxury",
+  "source": "autodiiler",
+  "title": "Mercedes-Benz C 200 d AMG Night-Package 2.0 RWD 120 kW 2.0 120kW",
+  "url": "https://autodiiler.ee/et/vehicles/71338",
+  "year": 2022
+ },
+ "autodiiler:72274": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "72274",
+  "last_seen": "2026-10-16",
+  "make": "Volkswagen",
+  "mileage": 84672,
+  "model": "Passat",
+  "power_kw": 147,
+  "price": 27995,
+  "price_history": [
+   [
+    "2026-10-16",
+    27995
+   ]
+  ],
+  "reserved": false,
+  "searches": [
+   "VW Passat / Arteon 4x4"
+  ],
+  "seller": "Mobile Autokeskus",
+  "source": "autodiiler",
+  "title": "Volkswagen Passat Variant 4Motion R-Line 2.0 147kW",
+  "url": "https://autodiiler.ee/et/vehicles/72274",
+  "year": 2022
+ },
+ "autodiiler:72740": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "72740",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 99790,
+  "model": "320",
+  "power_kw": 140,
+  "price": 23990,
+  "price_history": [
+   [
+    "2026-10-16",
+    23990
+   ]
+  ],
+  "reserved": false,
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Kristjan S",
+  "source": "autodiiler",
+  "title": "BMW 320 LuxuryLine 2.0 140kW",
+  "url": "https://autodiiler.ee/et/vehicles/72740",
+  "year": 2019
+ },
+ "autodiiler:73802": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid + bensiin",
+  "id": "73802",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 139000,
+  "model": "530",
+  "power_kw": 135,
+  "price": 30900,
+  "price_history": [
+   [
+    "2026-10-16",
+    30900
+   ]
+  ],
+  "reserved": false,
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Premium Select Luxury",
+  "source": "autodiiler",
+  "title": "BMW 530 xDrive M-Sportpakett 2.0 135kW",
+  "url": "https://autodiiler.ee/et/vehicles/73802",
+  "year": 2022
+ },
+ "autodiiler:75866": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid + diisel",
+  "id": "75866",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 139700,
+  "model": "320",
+  "power_kw": 140,
+  "price": 30890,
+  "price_history": [
+   [
+    "2026-10-16",
+    30890
+   ]
+  ],
+  "reserved": false,
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Veho OÜ Pärnu",
+  "source": "autodiiler",
+  "title": "BMW 320 d X-Drive M-Sportpakett 2.0 140kW",
+  "url": "https://autodiiler.ee/et/vehicles/75866",
+  "year": 2023
+ },
+ "autodiiler:76402": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid + diisel",
+  "id": "76402",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 118063,
+  "model": "320",
+  "power_kw": 140,
+  "price": 26900,
+  "price_history": [
+   [
+    "2026-10-16",
+    26900
+   ]
+  ],
+  "reserved": false,
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Veho OÜ Tallinn",
+  "source": "autodiiler",
+  "title": "BMW 320 d xDrive Touring 140kW",
+  "url": "https://autodiiler.ee/et/vehicles/76402",
+  "year": 2023
+ },
+ "autodiiler:77558": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid + diisel",
+  "id": "77558",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 110531,
+  "model": "C 220",
+  "power_kw": 147,
+  "price": 33500,
+  "price_history": [
+   [
+    "2026-10-16",
+    33500
+   ]
+  ],
+  "reserved": false,
+  "searches": [
+   "Mercedes C-klass"
+  ],
+  "seller": "Veho OÜ Pärnu",
+  "source": "autodiiler",
+  "title": "Mercedes-Benz C 220 d 4Matic All-Terrain 2.0 147kW",
+  "url": "https://autodiiler.ee/et/vehicles/77558",
+  "year": 2023
+ },
+ "autodiiler:77613": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "77613",
+  "last_seen": "2026-10-16",
+  "make": "Volkswagen",
+  "mileage": 139160,
+  "model": "Passat",
+  "power_kw": 147,
+  "price": 23500,
+  "price_history": [
+   [
+    "2026-10-16",
+    23500
+   ]
+  ],
+  "reserved": false,
+  "searches": [
+   "VW Passat / Arteon 4x4"
+  ],
+  "seller": "Moller Auto Mustamäe",
+  "source": "autodiiler",
+  "title": "Volkswagen Passat 2.0 147kW",
+  "url": "https://autodiiler.ee/et/vehicles/77613",
+  "year": 2021
+ },
+ "autodiiler:78399": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "78399",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 153161,
+  "model": "C 220",
+  "power_kw": 125,
+  "price": 17899,
+  "price_history": [
+   [
+    "2026-10-16",
+    17899
+   ]
+  ],
+  "reserved": false,
+  "searches": [
+   "Mercedes C-klass"
+  ],
+  "seller": "Longo",
+  "source": "autodiiler",
+  "title": "Mercedes-Benz C 220 Avantgarde 2.1 125kW",
+  "url": "https://autodiiler.ee/et/vehicles/78399",
+  "year": 2018
+ },
+ "autodiiler:78654": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "78654",
+  "last_seen": "2026-10-16",
+  "make": "Volkswagen",
+  "mileage": 118294,
+  "model": "Arteon",
+  "power_kw": 147,
+  "price": 30100,
+  "price_history": [
+   [
+    "2026-10-16",
+    30100
+   ]
+  ],
+  "reserved": false,
+  "searches": [
+   "VW Passat / Arteon 4x4"
+  ],
+  "seller": "Moller Auto Keskladu",
+  "source": "autodiiler",
+  "title": "Volkswagen Arteon 2.0 147kW",
+  "url": "https://autodiiler.ee/et/vehicles/78654",
+  "year": 2022
+ },
+ "autodiiler:78818": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "78818",
+  "last_seen": "2026-10-16",
+  "make": "Volkswagen",
+  "mileage": 87498,
+  "model": "Passat",
+  "power_kw": 147,
+  "price": 30990,
+  "price_history": [
+   [
+    "2026-10-16",
+    30990
+   ]
+  ],
+  "reserved": false,
+  "searches": [
+   "VW Passat / Arteon 4x4"
+  ],
+  "seller": "ABC MOTORS AS - Kasutatud autod",
+  "source": "autodiiler",
+  "title": "Volkswagen Passat 4Motion Variant 2.0 AWD 147 kW 2.0 147kW",
+  "url": "https://autodiiler.ee/et/vehicles/78818",
+  "year": 2023
+ },
+ "autodiiler:78992": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid + diisel",
+  "id": "78992",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 124800,
+  "model": "C 220",
+  "power_kw": 147,
+  "price": 31900,
+  "price_history": [
+   [
+    "2026-10-16",
+    31900
+   ]
+  ],
+  "reserved": false,
+  "searches": [
+   "Mercedes C-klass"
+  ],
+  "seller": "Veho OÜ Tallinn",
+  "source": "autodiiler",
+  "title": "Mercedes-Benz C 220 d 4Matic 2.0 147kW",
+  "url": "https://autodiiler.ee/et/vehicles/78992",
+  "year": 2023
+ },
+ "autodiiler:79054": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "79054",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 152000,
+  "model": "C 200",
+  "power_kw": 120,
+  "price": 24500,
+  "price_history": [
+   [
+    "2026-10-16",
+    24500
+   ]
+  ],
+  "reserved": false,
+  "searches": [
+   "Mercedes C-klass"
+  ],
+  "seller": "Moller Auto Pärnu",
+  "source": "autodiiler",
+  "title": "Mercedes-Benz C 200 2.0 120kW",
+  "url": "https://autodiiler.ee/et/vehicles/79054",
+  "year": 2023
+ },
+ "autodiiler:79151": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "79151",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 127728,
+  "model": "C 220",
+  "power_kw": 143,
+  "price": 23500,
+  "price_history": [
+   [
+    "2026-10-16",
+    23500
+   ]
+  ],
+  "reserved": false,
+  "searches": [
+   "Mercedes C-klass"
+  ],
+  "seller": "Erik K",
+  "source": "autodiiler",
+  "title": "Mercedes-Benz C 220 AMG-Line Night Edition 2.0 143kW",
+  "url": "https://autodiiler.ee/et/vehicles/79151",
+  "year": 2019
+ },
+ "autodiiler:79422": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "79422",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 134700,
+  "model": "540",
+  "power_kw": 235,
+  "price": 26500,
+  "price_history": [
+   [
+    "2026-10-16",
+    26500
+   ]
+  ],
+  "reserved": false,
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Nordauto",
+  "source": "autodiiler",
+  "title": "BMW 540 3.0 (235 kW) 3.0 235kW",
+  "url": "https://autodiiler.ee/et/vehicles/79422",
+  "year": 2018
+ },
+ "autodiiler:79587": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "79587",
+  "last_seen": "2026-10-16",
+  "make": "Subaru",
+  "mileage": 120289,
+  "model": "Outback",
+  "power_kw": 124,
+  "price": 25490,
+  "price_history": [
+   [
+    "2026-10-16",
+    25490
+   ]
+  ],
+  "reserved": false,
+  "searches": [
+   "Subaru Outback"
+  ],
+  "seller": "Amserv Tallinn",
+  "source": "autodiiler",
+  "title": "Subaru Outback AWD 2.5 AWD Automatic 124 kW 2.5 124kW",
+  "url": "https://autodiiler.ee/et/vehicles/79587",
+  "year": 2022
+ },
+ "autodiiler:79936": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid + bensiin",
+  "id": "79936",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 89300,
+  "model": "330",
+  "power_kw": 135,
+  "price": 26900,
+  "price_history": [
+   [
+    "2026-10-16",
+    26900
+   ]
+  ],
+  "reserved": false,
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "United Motors Peetri",
+  "source": "autodiiler",
+  "title": "BMW 330 Touring M-Sportpakett Petrol, Automatic 2.0 135kW",
+  "url": "https://autodiiler.ee/et/vehicles/79936",
+  "year": 2021
+ },
+ "autoportaal:100057": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "100057",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 80000,
+  "model": "CLA 220 Shooting Brake AMG pakett",
+  "power_kw": 140,
+  "price": 30000,
+  "price_history": [
+   [
+    "2026-10-16",
+    30000
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Kristjan",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz CLA 220 Shooting Brake AMG pakett",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/100057",
+  "year": 2021
+ },
+ "autoportaal:100204": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "100204",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 111000,
+  "model": "330 Sportline",
+  "power_kw": 215,
+  "price": 24600,
+  "price_history": [
+   [
+    "2026-10-16",
+    24600
+   ]
+  ],
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Raivo",
+  "source": "autoportaal",
+  "title": "BMW 330 Sportline",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/100204",
+  "year": 2021
+ },
+ "autoportaal:101225": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "101225",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 132264,
+  "model": "CLA 220 Shooting Brake 4Matic",
+  "power_kw": 140,
+  "price": 25995,
+  "price_history": [
+   [
+    "2026-10-16",
+    25995
+   ]
+  ],
+  "searches": [
+   "Mercedes C-klass",
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Mobile Autokeskus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz CLA 220 Shooting Brake 4Matic",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/101225",
+  "year": 2020
+ },
+ "autoportaal:101382": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "101382",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 245000,
+  "model": "E 300 de AMG 4matic",
+  "power_kw": 143,
+  "price": 21500,
+  "price_history": [
+   [
+    "2026-10-16",
+    21500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Kaarel",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 300 de AMG 4matic",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/101382",
+  "year": 2021
+ },
+ "autoportaal:101407": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "101407",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 91696,
+  "model": "X1 xDrive",
+  "power_kw": 110,
+  "price": 22900,
+  "price_history": [
+   [
+    "2026-10-16",
+    22900
+   ]
+  ],
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Nordauto",
+  "source": "autoportaal",
+  "title": "BMW X1 xDrive",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/101407",
+  "year": 2022
+ },
+ "autoportaal:101558": {
+  "body": "universaal",
+  "drive": "esivedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "101558",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 91341,
+  "model": "B 250 e 8G-DCT AMG",
+  "power_kw": 118,
+  "price": 23900,
+  "price_history": [
+   [
+    "2026-10-16",
+    23900
+   ]
+  ],
+  "searches": [
+   "Mercedes C-klass",
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "A2 Autowelt",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz B 250 e 8G-DCT AMG",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/101558",
+  "year": 2022
+ },
+ "autoportaal:101637": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "101637",
+  "last_seen": "2026-10-16",
+  "make": "Skoda",
+  "mileage": 86431,
+  "model": "Kodiaq AMBITION FL 4X4",
+  "power_kw": 110,
+  "price": 29900,
+  "price_history": [
+   [
+    "2026-10-16",
+    29900
+   ]
+  ],
+  "searches": [
+   "Škoda Superb 4x4"
+  ],
+  "seller": "SKO Motors - Škoda  Laagri",
+  "source": "autoportaal",
+  "title": "Škoda Kodiaq AMBITION FL 4X4",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/101637",
+  "year": 2022
+ },
+ "autoportaal:101787": {
+  "body": "7 kohta",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "101787",
+  "last_seen": "2026-10-16",
+  "make": "Volkswagen",
+  "mileage": 71000,
+  "model": "Tiguan Allspace Highline 2.0 110kW",
+  "power_kw": 110,
+  "price": 27500,
+  "price_history": [
+   [
+    "2026-10-16",
+    27500
+   ]
+  ],
+  "searches": [
+   "VW Passat / Arteon 4x4"
+  ],
+  "seller": "Gätrin",
+  "source": "autoportaal",
+  "title": "Volkswagen Tiguan Allspace Highline 2.0 110kW",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/101787",
+  "year": 2021
+ },
+ "autoportaal:101944": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "101944",
+  "last_seen": "2026-10-16",
+  "make": "Volkswagen",
+  "mileage": 84672,
+  "model": "Passat Variant 4Motion R-Line",
+  "power_kw": 147,
+  "price": 27995,
+  "price_history": [
+   [
+    "2026-10-16",
+    27995
+   ]
+  ],
+  "searches": [
+   "VW Passat / Arteon 4x4"
+  ],
+  "seller": "Mobile Autokeskus",
+  "source": "autoportaal",
+  "title": "Volkswagen Passat Variant 4Motion R-Line",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/101944",
+  "year": 2022
+ },
+ "autoportaal:102418": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "102418",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 190930,
+  "model": "GLE 63 AMG S 4Matic V8 Bi-Turbo",
+  "power_kw": 430,
+  "price": 27995,
+  "price_history": [
+   [
+    "2026-10-16",
+    27995
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Suve.ee",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLE 63 AMG S 4Matic V8 Bi-Turbo",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/102418",
+  "year": 2017
+ },
+ "autoportaal:102459": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "102459",
+  "last_seen": "2026-10-16",
+  "make": "Skoda",
+  "mileage": 74806,
+  "model": "Kodiaq Ambition",
+  "power_kw": 110,
+  "price": 28990,
+  "price_history": [
+   [
+    "2026-10-16",
+    28990
+   ]
+  ],
+  "searches": [
+   "Škoda Superb 4x4"
+  ],
+  "seller": "Ideal Auto",
+  "source": "autoportaal",
+  "title": "Škoda Kodiaq Ambition",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/102459",
+  "year": 2023
+ },
+ "autoportaal:103361": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "103361",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 151000,
+  "model": "E 220 AMG line",
+  "power_kw": 143,
+  "price": 23500,
+  "price_history": [
+   [
+    "2026-10-16",
+    23500
+   ]
+  ],
+  "searches": [
+   "Mercedes C-klass",
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Sander",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 220 AMG line",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/103361",
+  "year": 2017
+ },
+ "autoportaal:103365": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "103365",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 100700,
+  "model": "C 200 d AMG Night-Package",
+  "power_kw": 120,
+  "price": 32900,
+  "price_history": [
+   [
+    "2026-10-16",
+    32900
+   ]
+  ],
+  "searches": [
+   "Mercedes C-klass",
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Premium Select Luxury",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 200 d AMG Night-Package",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/103365",
+  "year": 2022
+ },
+ "autoportaal:104585": {
+  "body": "8 kohta",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "104585",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 174000,
+  "model": "V 250 AMG 4Matic",
+  "power_kw": 140,
+  "price": 46100,
+  "price_history": [
+   [
+    "2026-10-16",
+    46100
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Reijo",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz V 250 AMG 4Matic",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/104585",
+  "year": 2020
+ },
+ "autoportaal:104606": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "104606",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 267000,
+  "model": "C 220",
+  "power_kw": 125,
+  "price": 12200,
+  "price_history": [
+   [
+    "2026-10-16",
+    12200
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Enn",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 220",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/104606",
+  "year": 2018
+ },
+ "autoportaal:104613": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "104613",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 160000,
+  "model": "E 300 AMG Line",
+  "power_kw": 143,
+  "price": 26000,
+  "price_history": [
+   [
+    "2026-10-16",
+    26000
+   ]
+  ],
+  "searches": [
+   "Mercedes C-klass",
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Mait",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 300 AMG Line",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/104613",
+  "year": 2020
+ },
+ "autoportaal:104710": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "104710",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 124,
+  "model": "C 220",
+  "power_kw": 125,
+  "price": 12200,
+  "price_history": [
+   [
+    "2026-10-16",
+    12200
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Enn",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 220",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/104710",
+  "year": 2018
+ },
+ "autoportaal:104849": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "104849",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 188,
+  "model": "A 35 AMG",
+  "power_kw": 225,
+  "price": 35100,
+  "price_history": [
+   [
+    "2026-10-16",
+    35100
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Ott",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz A 35 AMG",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/104849",
+  "year": 2019
+ },
+ "autoportaal:104882": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "104882",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 99500,
+  "model": "X3",
+  "power_kw": 140,
+  "price": 21999,
+  "price_history": [
+   [
+    "2026-10-16",
+    21999
+   ]
+  ],
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": null,
+  "source": "autoportaal",
+  "title": "BMW X3",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/104882",
+  "year": 2018
+ },
+ "autoportaal:104938": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "104938",
+  "last_seen": "2026-10-16",
+  "make": "Skoda",
+  "mileage": 123000,
+  "model": "Superb",
+  "power_kw": 147,
+  "price": 23250,
+  "price_history": [
+   [
+    "2026-10-16",
+    23250
+   ]
+  ],
+  "searches": [
+   "Škoda Superb 4x4"
+  ],
+  "seller": "Auto Bassadone Laagri",
+  "source": "autoportaal",
+  "title": "Škoda Superb",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/104938",
+  "year": 2022
+ },
+ "autoportaal:104947": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "104947",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 283000,
+  "model": "C 200",
+  "power_kw": 100,
+  "price": 11500,
+  "price_history": [
+   [
+    "2026-10-16",
+    11500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Mobilstar",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 200",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/104947",
+  "year": 2016
+ },
+ "autoportaal:104954": {
+  "body": "universaal",
+  "drive": "esivedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "104954",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 104000,
+  "model": "CLA 180",
+  "power_kw": 100,
+  "price": 24500,
+  "price_history": [
+   [
+    "2026-10-16",
+    24500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Indrek Jörgen",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz CLA 180",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/104954",
+  "year": 2020
+ },
+ "autoportaal:105376": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "105376",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 170000,
+  "model": "C 200",
+  "power_kw": 118,
+  "price": 19999,
+  "price_history": [
+   [
+    "2026-10-16",
+    19999
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Raido",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 200",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/105376",
+  "year": 2019
+ },
+ "autoportaal:105385": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "105385",
+  "last_seen": "2026-10-16",
+  "make": "Skoda",
+  "mileage": 81538,
+  "model": "Kodiaq SPORTLINE 4X4",
+  "power_kw": 110,
+  "price": 31900,
+  "price_history": [
+   [
+    "2026-10-16",
+    31900
+   ]
+  ],
+  "searches": [
+   "Škoda Superb 4x4"
+  ],
+  "seller": "SKO Motors - Škoda  Laagri",
+  "source": "autoportaal",
+  "title": "Škoda Kodiaq SPORTLINE 4X4",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/105385",
+  "year": 2021
+ },
+ "autoportaal:105418": {
+  "body": "6 kohta",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "105418",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 230,
+  "model": "GLS 450",
+  "power_kw": 270,
+  "price": 67000,
+  "price_history": [
+   [
+    "2026-10-16",
+    67000
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Marek",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLS 450",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/105418",
+  "year": 2020
+ },
+ "autoportaal:105803": {
+  "body": "universaal",
+  "drive": "esivedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "105803",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 46227,
+  "model": "C 180",
+  "power_kw": 125,
+  "price": 35700,
+  "price_history": [
+   [
+    "2026-10-16",
+    35700
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Moller Auto Keskladu",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 180",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/105803",
+  "year": 2024
+ },
+ "autoportaal:105945": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "105945",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 124000,
+  "model": "GLC 63 AMG GLC 63S",
+  "power_kw": 375,
+  "price": 61900,
+  "price_history": [
+   [
+    "2026-10-16",
+    61900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Mikk",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLC 63 AMG GLC 63S",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/105945",
+  "year": 2020
+ },
+ "autoportaal:105992": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "105992",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 199600,
+  "model": "E 220",
+  "power_kw": 143,
+  "price": 19990,
+  "price_history": [
+   [
+    "2026-10-16",
+    19990
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Villu",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 220",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/105992",
+  "year": 2017
+ },
+ "autoportaal:106022": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "106022",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 38000,
+  "model": "GLE 300 COUPE",
+  "power_kw": 198,
+  "price": 83900,
+  "price_history": [
+   [
+    "2026-10-16",
+    83900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Indrek",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLE 300 COUPE",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/106022",
+  "year": 2024
+ },
+ "autoportaal:106053": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "106053",
+  "last_seen": "2026-10-16",
+  "make": "Volkswagen",
+  "mileage": 119350,
+  "model": "Golf R 4 Motion",
+  "power_kw": 221,
+  "price": 23900,
+  "price_history": [
+   [
+    "2026-10-16",
+    23900
+   ]
+  ],
+  "searches": [
+   "VW Passat / Arteon 4x4"
+  ],
+  "seller": "Morecar",
+  "source": "autoportaal",
+  "title": "Volkswagen Golf R 4 Motion",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/106053",
+  "year": 2019
+ },
+ "autoportaal:106062": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "106062",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 251000,
+  "model": "C 220",
+  "power_kw": 125,
+  "price": 14900,
+  "price_history": [
+   [
+    "2026-10-16",
+    14900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Astrid",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 220",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/106062",
+  "year": 2017
+ },
+ "autoportaal:106600": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "106600",
+  "last_seen": "2026-10-16",
+  "make": "Subaru",
+  "mileage": 123413,
+  "model": "Outback ADVENTURE",
+  "power_kw": 124,
+  "price": 25200,
+  "price_history": [
+   [
+    "2026-10-16",
+    25200
+   ]
+  ],
+  "searches": [
+   "Subaru Outback"
+  ],
+  "seller": "Morecar",
+  "source": "autoportaal",
+  "title": "Subaru Outback ADVENTURE",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/106600",
+  "year": 2024
+ },
+ "autoportaal:106608": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "106608",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 324725,
+  "model": "C 200",
+  "power_kw": 100,
+  "price": 8500,
+  "price_history": [
+   [
+    "2026-10-16",
+    8500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "matteo",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 200",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/106608",
+  "year": 2016
+ },
+ "autoportaal:106665": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "106665",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 182631,
+  "model": "E 200",
+  "power_kw": 110,
+  "price": 21999,
+  "price_history": [
+   [
+    "2026-10-16",
+    21999
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Tanel",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 200",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/106665",
+  "year": 2019
+ },
+ "autoportaal:106800": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "106800",
+  "last_seen": "2026-10-16",
+  "make": "Volkswagen",
+  "mileage": 131243,
+  "model": "Tiguan R-LINE",
+  "power_kw": 110,
+  "price": 25900,
+  "price_history": [
+   [
+    "2026-10-16",
+    25900
+   ]
+  ],
+  "searches": [
+   "VW Passat / Arteon 4x4"
+  ],
+  "seller": "SKO Motors - Škoda  Laagri",
+  "source": "autoportaal",
+  "title": "Volkswagen Tiguan R-LINE",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/106800",
+  "year": 2020
+ },
+ "autoportaal:106902": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "106902",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 114900,
+  "model": "B 220 4Matic Automatik",
+  "power_kw": 140,
+  "price": 18990,
+  "price_history": [
+   [
+    "2026-10-16",
+    18990
+   ]
+  ],
+  "searches": [
+   "Mercedes C-klass",
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "United Motors Tallinn",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz B 220 4Matic Automatik",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/106902",
+  "year": 2019
+ },
+ "autoportaal:107001": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "107001",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 246000,
+  "model": "E 220 d 4Matic",
+  "power_kw": 143,
+  "price": 24900,
+  "price_history": [
+   [
+    "2026-10-16",
+    24900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Urmas",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 220 d 4Matic",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/107001",
+  "year": 2019
+ },
+ "autoportaal:107111": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "107111",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 126368,
+  "model": "GLC 300",
+  "power_kw": 235,
+  "price": 34900,
+  "price_history": [
+   [
+    "2026-10-16",
+    34900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Moller Auto Mustamäe",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLC 300",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/107111",
+  "year": 2022
+ },
+ "autoportaal:107524": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "107524",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 175000,
+  "model": "GLE 350",
+  "power_kw": 190,
+  "price": 29900,
+  "price_history": [
+   [
+    "2026-10-16",
+    29900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Mobilstar",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLE 350",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/107524",
+  "year": 2017
+ },
+ "autoportaal:107590": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "107590",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 210000,
+  "model": "GLC 250",
+  "power_kw": 150,
+  "price": 16999,
+  "price_history": [
+   [
+    "2026-10-16",
+    16999
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Marianne",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLC 250",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/107590",
+  "year": 2016
+ },
+ "autoportaal:108359": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "108359",
+  "last_seen": "2026-10-16",
+  "make": "Volkswagen",
+  "mileage": 106615,
+  "model": "Tiguan",
+  "power_kw": 110,
+  "price": 28700,
+  "price_history": [
+   [
+    "2026-10-16",
+    28700
+   ]
+  ],
+  "searches": [
+   "VW Passat / Arteon 4x4"
+  ],
+  "seller": "Moller Auto Mustamäe",
+  "source": "autoportaal",
+  "title": "Volkswagen Tiguan",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/108359",
+  "year": 2022
+ },
+ "autoportaal:108600": {
+  "body": "6 kohta",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "108600",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 160000,
+  "model": "V 300 4 Matic Exclusive AMG",
+  "power_kw": 176,
+  "price": 59900,
+  "price_history": [
+   [
+    "2026-10-16",
+    59900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Viking Motors Tammsaare",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz V 300 4 Matic Exclusive AMG",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/108600",
+  "year": 2021
+ },
+ "autoportaal:108695": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "108695",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 139000,
+  "model": "530 xDrive M-Sportpakett",
+  "power_kw": 135,
+  "price": 30900,
+  "price_history": [
+   [
+    "2026-10-16",
+    30900
+   ]
+  ],
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Premium Select Luxury",
+  "source": "autoportaal",
+  "title": "BMW 530 xDrive M-Sportpakett",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/108695",
+  "year": 2022
+ },
+ "autoportaal:108809": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "108809",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 323000,
+  "model": "GLE 350 AMG line reg.tasu hinnas!",
+  "power_kw": 190,
+  "price": 24700,
+  "price_history": [
+   [
+    "2026-10-16",
+    24700
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Marko",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLE 350 AMG line reg.tasu hinnas!",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/108809",
+  "year": 2017
+ },
+ "autoportaal:108825": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "108825",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 260000,
+  "model": "C 200",
+  "power_kw": 110,
+  "price": 11000,
+  "price_history": [
+   [
+    "2026-10-16",
+    11000
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": null,
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 200",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/108825",
+  "year": 2018
+ },
+ "autoportaal:108836": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "108836",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 104479,
+  "model": "X3 XDRIVE 20I",
+  "power_kw": 135,
+  "price": 25900,
+  "price_history": [
+   [
+    "2026-10-16",
+    25900
+   ]
+  ],
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Topauto Kristiine",
+  "source": "autoportaal",
+  "title": "BMW X3 XDRIVE 20I",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/108836",
+  "year": 2019
+ },
+ "autoportaal:108896": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "108896",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 94000,
+  "model": "320 PHEV",
+  "power_kw": 175,
+  "price": 29900,
+  "price_history": [
+   [
+    "2026-10-16",
+    29900
+   ]
+  ],
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Kristo",
+  "source": "autoportaal",
+  "title": "BMW 320 PHEV",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/108896",
+  "year": 2024
+ },
+ "autoportaal:108926": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "108926",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 116000,
+  "model": "X1",
+  "power_kw": 162,
+  "price": 22900,
+  "price_history": [
+   [
+    "2026-10-16",
+    22900
+   ]
+  ],
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Kristo",
+  "source": "autoportaal",
+  "title": "BMW X1",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/108926",
+  "year": 2022
+ },
+ "autoportaal:109083": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "109083",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 113002,
+  "model": "X3",
+  "power_kw": 135,
+  "price": 29499,
+  "price_history": [
+   [
+    "2026-10-16",
+    29499
+   ]
+  ],
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Aleksander",
+  "source": "autoportaal",
+  "title": "BMW X3",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/109083",
+  "year": 2019
+ },
+ "autoportaal:109101": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "109101",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 341000,
+  "model": "GLC 250",
+  "power_kw": 150,
+  "price": 15700,
+  "price_history": [
+   [
+    "2026-10-16",
+    15700
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Enno",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLC 250",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/109101",
+  "year": 2016
+ },
+ "autoportaal:109142": {
+  "body": "universaal",
+  "drive": "esivedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "109142",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 298800,
+  "model": "CLA 200 AMG",
+  "power_kw": 100,
+  "price": 10799,
+  "price_history": [
+   [
+    "2026-10-16",
+    10799
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": null,
+  "source": "autoportaal",
+  "title": "Mercedes-Benz CLA 200 AMG",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/109142",
+  "year": 2016
+ },
+ "autoportaal:109431": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "109431",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 69456,
+  "model": "C 300 AMG pakett",
+  "power_kw": 195,
+  "price": 34899,
+  "price_history": [
+   [
+    "2026-10-16",
+    34899
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Hannes",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 300 AMG pakett",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/109431",
+  "year": 2022
+ },
+ "autoportaal:109698": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "109698",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 29000,
+  "model": "GLC 450 d 4Matic AMG",
+  "power_kw": 270,
+  "price": 70900,
+  "price_history": [
+   [
+    "2026-10-16",
+    70900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Veho OÜ Tallinna esindus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLC 450 d 4Matic AMG",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/109698",
+  "year": 2025
+ },
+ "autoportaal:109895": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "109895",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 44320,
+  "model": "E 220 d 4Matic AMG pakett",
+  "power_kw": 145,
+  "price": 58300,
+  "price_history": [
+   [
+    "2026-10-16",
+    58300
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Veho OÜ Pärnu esindus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 220 d 4Matic AMG pakett",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/109895",
+  "year": 2025
+ },
+ "autoportaal:110354": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "110354",
+  "last_seen": "2026-10-16",
+  "make": "Volkswagen",
+  "mileage": 136000,
+  "model": "Passat",
+  "power_kw": 140,
+  "price": 18990,
+  "price_history": [
+   [
+    "2026-10-16",
+    18990
+   ]
+  ],
+  "searches": [
+   "VW Passat / Arteon 4x4"
+  ],
+  "seller": "Hardi",
+  "source": "autoportaal",
+  "title": "Volkswagen Passat",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/110354",
+  "year": 2019
+ },
+ "autoportaal:110370": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "110370",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 82400,
+  "model": "320",
+  "power_kw": 140,
+  "price": 29999,
+  "price_history": [
+   [
+    "2026-10-16",
+    29999
+   ]
+  ],
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Kalvi",
+  "source": "autoportaal",
+  "title": "BMW 320",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/110370",
+  "year": 2021
+ },
+ "autoportaal:110431": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "110431",
+  "last_seen": "2026-10-16",
+  "make": "Skoda",
+  "mileage": 122058,
+  "model": "Octavia Combi Ambition 4X4",
+  "power_kw": 110,
+  "price": 18900,
+  "price_history": [
+   [
+    "2026-10-16",
+    18900
+   ]
+  ],
+  "searches": [
+   "Škoda Superb 4x4"
+  ],
+  "seller": "A2 Autowelt",
+  "source": "autoportaal",
+  "title": "Škoda Octavia Combi Ambition 4X4",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/110431",
+  "year": 2022
+ },
+ "autoportaal:110455": {
+  "body": "7 kohta",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "110455",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 17000,
+  "model": "Vito 119CDI Tourer 4Matic A2",
+  "power_kw": 140,
+  "price": 79900,
+  "price_history": [
+   [
+    "2026-10-16",
+    79900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Veho OÜ Väo esindus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz Vito 119CDI Tourer 4Matic A2",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/110455",
+  "year": 2026
+ },
+ "autoportaal:110682": {
+  "body": "universaal",
+  "drive": "esivedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "110682",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 15800,
+  "model": "GLB 200 AMG",
+  "power_kw": 120,
+  "price": 42500,
+  "price_history": [
+   [
+    "2026-10-16",
+    42500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Veho OÜ Tallinna esindus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLB 200 AMG",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/110682",
+  "year": 2025
+ },
+ "autoportaal:110696": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "110696",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 88674,
+  "model": "GLC 200",
+  "power_kw": 120,
+  "price": 33900,
+  "price_history": [
+   [
+    "2026-10-16",
+    33900
+   ]
+  ],
+  "searches": [
+   "Mercedes C-klass",
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Mobile Autokeskus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLC 200",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/110696",
+  "year": 2021
+ },
+ "autoportaal:110878": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "110878",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 129,
+  "model": "GLC 220",
+  "power_kw": 125,
+  "price": 22985,
+  "price_history": [
+   [
+    "2026-10-16",
+    22985
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Medtech",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLC 220",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/110878",
+  "year": 2016
+ },
+ "autoportaal:111067": {
+  "body": "7 kohta",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "111067",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 49600,
+  "model": "V 300 4MATIC BURMESTER LONG EXCLUSIVE FACELIFT",
+  "power_kw": 174,
+  "price": 81990,
+  "price_history": [
+   [
+    "2026-10-16",
+    81990
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Euest",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz V 300 4MATIC BURMESTER LONG EXCLUSIVE FACELIFT",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/111067",
+  "year": 2024
+ },
+ "autoportaal:111082": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "111082",
+  "last_seen": "2026-10-16",
+  "make": "Subaru",
+  "mileage": 41941,
+  "model": "Forester Ridge varustustase",
+  "power_kw": 110,
+  "price": 28500,
+  "price_history": [
+   [
+    "2026-10-16",
+    28500
+   ]
+  ],
+  "searches": [
+   "Subaru Outback"
+  ],
+  "seller": "Dmitri",
+  "source": "autoportaal",
+  "title": "Subaru Forester Ridge varustustase",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/111082",
+  "year": 2024
+ },
+ "autoportaal:111207": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "111207",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 204500,
+  "model": "CLA 220",
+  "power_kw": 130,
+  "price": 15500,
+  "price_history": [
+   [
+    "2026-10-16",
+    15500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "alari",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz CLA 220",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/111207",
+  "year": 2017
+ },
+ "autoportaal:111243": {
+  "body": "7 kohta",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "111243",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 128000,
+  "model": "GLE 400",
+  "power_kw": 243,
+  "price": 56500,
+  "price_history": [
+   [
+    "2026-10-16",
+    56500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "MB GLE",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLE 400",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/111243",
+  "year": 2020
+ },
+ "autoportaal:111256": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "111256",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 260000,
+  "model": "C 220",
+  "power_kw": 125,
+  "price": 12900,
+  "price_history": [
+   [
+    "2026-10-16",
+    12900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Jaak",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 220",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/111256",
+  "year": 2016
+ },
+ "autoportaal:112106": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "112106",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 198955,
+  "model": "C 350 Edition",
+  "power_kw": 205,
+  "price": 13399,
+  "price_history": [
+   [
+    "2026-10-16",
+    13399
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Longo",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 350 Edition",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/112106",
+  "year": 2016
+ },
+ "autoportaal:112216": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "112216",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 99969,
+  "model": "E 300 Avantgarde",
+  "power_kw": 143,
+  "price": 28999,
+  "price_history": [
+   [
+    "2026-10-16",
+    28999
+   ]
+  ],
+  "searches": [
+   "Mercedes C-klass",
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Sten Marc",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 300 Avantgarde",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/112216",
+  "year": 2021
+ },
+ "autoportaal:112248": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "112248",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 139700,
+  "model": "320 d X-Drive M-Sportpakett",
+  "power_kw": 140,
+  "price": 30890,
+  "price_history": [
+   [
+    "2026-10-16",
+    30890
+   ]
+  ],
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Veho OÜ Pärnu esindus",
+  "source": "autoportaal",
+  "title": "BMW 320 d X-Drive M-Sportpakett",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/112248",
+  "year": 2023
+ },
+ "autoportaal:112322": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "112322",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 220000,
+  "model": "E 43 AMG E 43 AMG 4MATIC T-Modell S213",
+  "power_kw": 295,
+  "price": 30000,
+  "price_history": [
+   [
+    "2026-10-16",
+    30000
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Kristjan",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 43 AMG E 43 AMG 4MATIC T-Modell S213",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/112322",
+  "year": 2018
+ },
+ "autoportaal:112323": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "112323",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 147000,
+  "model": "GLC 200 4Matic AMG pakett",
+  "power_kw": 150,
+  "price": 39900,
+  "price_history": [
+   [
+    "2026-10-16",
+    39900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Veho OÜ Tallinna esindus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLC 200 4Matic AMG pakett",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/112323",
+  "year": 2023
+ },
+ "autoportaal:112325": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "112325",
+  "last_seen": "2026-10-16",
+  "make": "Volkswagen",
+  "mileage": 98291,
+  "model": "Passat Variant 4Motion R-Line",
+  "power_kw": 147,
+  "price": 29795,
+  "price_history": [
+   [
+    "2026-10-16",
+    29795
+   ]
+  ],
+  "searches": [
+   "VW Passat / Arteon 4x4"
+  ],
+  "seller": "Mobile Autokeskus",
+  "source": "autoportaal",
+  "title": "Volkswagen Passat Variant 4Motion R-Line",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/112325",
+  "year": 2022
+ },
+ "autoportaal:112367": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "112367",
+  "last_seen": "2026-10-16",
+  "make": "Volkswagen",
+  "mileage": 116639,
+  "model": "Passat",
+  "power_kw": 147,
+  "price": 25385,
+  "price_history": [
+   [
+    "2026-10-16",
+    25385
+   ]
+  ],
+  "searches": [
+   "VW Passat / Arteon 4x4"
+  ],
+  "seller": "Moller Auto Keskladu",
+  "source": "autoportaal",
+  "title": "Volkswagen Passat",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/112367",
+  "year": 2023
+ },
+ "autoportaal:112591": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "112591",
+  "last_seen": "2026-10-16",
+  "make": "Skoda",
+  "mileage": 123462,
+  "model": "Kodiaq Sportline FL",
+  "power_kw": 140,
+  "price": 28900,
+  "price_history": [
+   [
+    "2026-10-16",
+    28900
+   ]
+  ],
+  "searches": [
+   "Škoda Superb 4x4"
+  ],
+  "seller": "Morecar",
+  "source": "autoportaal",
+  "title": "Škoda Kodiaq Sportline FL",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/112591",
+  "year": 2022
+ },
+ "autoportaal:112680": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "112680",
+  "last_seen": "2026-10-16",
+  "make": "Volkswagen",
+  "mileage": 130080,
+  "model": "Arteon",
+  "power_kw": 140,
+  "price": 28950,
+  "price_history": [
+   [
+    "2026-10-16",
+    28950
+   ]
+  ],
+  "searches": [
+   "VW Passat / Arteon 4x4"
+  ],
+  "seller": "Moller Auto Pärnu",
+  "source": "autoportaal",
+  "title": "Volkswagen Arteon",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/112680",
+  "year": 2020
+ },
+ "autoportaal:112943": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "112943",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 220000,
+  "model": "CLA 220 AMG pakett",
+  "power_kw": 140,
+  "price": 22000,
+  "price_history": [
+   [
+    "2026-10-16",
+    22000
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Henri",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz CLA 220 AMG pakett",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/112943",
+  "year": 2021
+ },
+ "autoportaal:113034": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "113034",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 200000,
+  "model": "C 220 4Matic AMG Line Facelift",
+  "power_kw": 143,
+  "price": 20990,
+  "price_history": [
+   [
+    "2026-10-16",
+    20990
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "21Motors OÜ",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 220 4Matic AMG Line Facelift",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/113034",
+  "year": 2021
+ },
+ "autoportaal:113317": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "113317",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 102000,
+  "model": "C 180 AMG",
+  "power_kw": 125,
+  "price": 25999,
+  "price_history": [
+   [
+    "2026-10-16",
+    25999
+   ]
+  ],
+  "searches": [
+   "Mercedes C-klass",
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Mihkel",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 180 AMG",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/113317",
+  "year": 2022
+ },
+ "autoportaal:113340": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "113340",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 115323,
+  "model": "X1 xDrive 25d M-pakett",
+  "power_kw": 170,
+  "price": 23200,
+  "price_history": [
+   [
+    "2026-10-16",
+    23200
+   ]
+  ],
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Erki",
+  "source": "autoportaal",
+  "title": "BMW X1 xDrive 25d M-pakett",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/113340",
+  "year": 2018
+ },
+ "autoportaal:113404": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "113404",
+  "last_seen": "2026-10-16",
+  "make": "Skoda",
+  "mileage": 68304,
+  "model": "Kodiaq Ambition FL",
+  "power_kw": 110,
+  "price": 28990,
+  "price_history": [
+   [
+    "2026-10-16",
+    28990
+   ]
+  ],
+  "searches": [
+   "Škoda Superb 4x4"
+  ],
+  "seller": "Ideal Auto",
+  "source": "autoportaal",
+  "title": "Škoda Kodiaq Ambition FL",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/113404",
+  "year": 2023
+ },
+ "autoportaal:113459": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "113459",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 118063,
+  "model": "320 d xDrive Touring",
+  "power_kw": 140,
+  "price": 26900,
+  "price_history": [
+   [
+    "2026-10-16",
+    26900
+   ]
+  ],
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Veho OÜ Tallinna esindus",
+  "source": "autoportaal",
+  "title": "BMW 320 d xDrive Touring",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/113459",
+  "year": 2023
+ },
+ "autoportaal:113842": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "113842",
+  "last_seen": "2026-10-16",
+  "make": "Volkswagen",
+  "mileage": 135338,
+  "model": "Tiguan",
+  "power_kw": 110,
+  "price": 28850,
+  "price_history": [
+   [
+    "2026-10-16",
+    28850
+   ]
+  ],
+  "searches": [
+   "VW Passat / Arteon 4x4"
+  ],
+  "seller": "Moller Auto Pärnu",
+  "source": "autoportaal",
+  "title": "Volkswagen Tiguan",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/113842",
+  "year": 2020
+ },
+ "autoportaal:114325": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "114325",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 128000,
+  "model": "330",
+  "power_kw": 215,
+  "price": 26000,
+  "price_history": [
+   [
+    "2026-10-16",
+    26000
+   ]
+  ],
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Vergo",
+  "source": "autoportaal",
+  "title": "BMW 330",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/114325",
+  "year": 2020
+ },
+ "autoportaal:114448": {
+  "body": "6 kohta",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "114448",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 220,
+  "model": "V-KLASSE AMG individual",
+  "power_kw": 174,
+  "price": 66900,
+  "price_history": [
+   [
+    "2026-10-16",
+    66900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Aleksei",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz V-KLASSE AMG individual",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/114448",
+  "year": 2023
+ },
+ "autoportaal:114450": {
+  "body": "7 kohta",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "114450",
+  "last_seen": "2026-10-16",
+  "make": "Volkswagen",
+  "mileage": 126000,
+  "model": "Tiguan Highline 4M",
+  "power_kw": 176,
+  "price": 26500,
+  "price_history": [
+   [
+    "2026-10-16",
+    26500
+   ]
+  ],
+  "searches": [
+   "VW Passat / Arteon 4x4"
+  ],
+  "seller": "Alar",
+  "source": "autoportaal",
+  "title": "Volkswagen Tiguan Highline 4M",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/114450",
+  "year": 2020
+ },
+ "autoportaal:114563": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "114563",
+  "last_seen": "2026-10-16",
+  "make": "Volkswagen",
+  "mileage": 120000,
+  "model": "Passat Alltrack",
+  "power_kw": 147,
+  "price": 26990,
+  "price_history": [
+   [
+    "2026-10-16",
+    26990
+   ]
+  ],
+  "searches": [
+   "VW Passat / Arteon 4x4"
+  ],
+  "seller": "Oleksandr",
+  "source": "autoportaal",
+  "title": "Volkswagen Passat Alltrack",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/114563",
+  "year": 2021
+ },
+ "autoportaal:114632": {
+  "body": "universaal",
+  "drive": "esivedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "114632",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 194486,
+  "model": "CLA 200 Shooting Brake AMG MBUX WIDESCREEN",
+  "power_kw": 110,
+  "price": 21500,
+  "price_history": [
+   [
+    "2026-10-16",
+    21500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Christian",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz CLA 200 Shooting Brake AMG MBUX WIDESCREEN",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/114632",
+  "year": 2020
+ },
+ "autoportaal:114748": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "114748",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 18500,
+  "model": "C 200 AMG Line",
+  "power_kw": 150,
+  "price": 45900,
+  "price_history": [
+   [
+    "2026-10-16",
+    45900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Maikel",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 200 AMG Line",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/114748",
+  "year": 2025
+ },
+ "autoportaal:114862": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "114862",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-AMG",
+  "mileage": 44415,
+  "model": "GT AMG 4MATIC+",
+  "power_kw": 270,
+  "price": 69990,
+  "price_history": [
+   [
+    "2026-10-16",
+    69990
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "City Motors Tartu esindus",
+  "source": "autoportaal",
+  "title": "Mercedes-AMG GT AMG 4MATIC+",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/114862",
+  "year": 2020
+ },
+ "autoportaal:114933": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Elekter",
+  "id": "114933",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 120000,
+  "model": "EQC",
+  "power_kw": 145,
+  "price": 30999,
+  "price_history": [
+   [
+    "2026-10-16",
+    30999
+   ]
+  ],
+  "searches": [
+   "Mercedes C-klass",
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "O",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz EQC",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/114933",
+  "year": 2020
+ },
+ "autoportaal:115129": {
+  "body": "universaal",
+  "drive": "esivedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "115129",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 34400,
+  "model": "GLA 180 Progressive",
+  "power_kw": 100,
+  "price": 39900,
+  "price_history": [
+   [
+    "2026-10-16",
+    39900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Veho OÜ Tallinna esindus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLA 180 Progressive",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/115129",
+  "year": 2025
+ },
+ "autoportaal:115496": {
+  "body": "7 kohta",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Elekter",
+  "id": "115496",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 48600,
+  "model": "EQS SUV 450 AMG Line",
+  "power_kw": 135,
+  "price": 99499,
+  "price_history": [
+   [
+    "2026-10-16",
+    99499
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Viljar",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz EQS SUV 450 AMG Line",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/115496",
+  "year": 2024
+ },
+ "autoportaal:115513": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "115513",
+  "last_seen": "2026-10-16",
+  "make": "Skoda",
+  "mileage": 120490,
+  "model": "Karoq Sportline 4x4",
+  "power_kw": 140,
+  "price": 24900,
+  "price_history": [
+   [
+    "2026-10-16",
+    24900
+   ]
+  ],
+  "searches": [
+   "Škoda Superb 4x4"
+  ],
+  "seller": "Nordauto",
+  "source": "autoportaal",
+  "title": "Škoda Karoq Sportline 4x4",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/115513",
+  "year": 2020
+ },
+ "autoportaal:115561": {
+  "body": "universaal",
+  "drive": "esivedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "115561",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 158000,
+  "model": "CLA 200",
+  "power_kw": 115,
+  "price": 15499,
+  "price_history": [
+   [
+    "2026-10-16",
+    15499
+   ]
+  ],
+  "searches": [
+   "Mercedes C-klass",
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Ken",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz CLA 200",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/115561",
+  "year": 2018
+ },
+ "autoportaal:115636": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "115636",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 105955,
+  "model": "X3",
+  "power_kw": 135,
+  "price": 30900,
+  "price_history": [
+   [
+    "2026-10-16",
+    30900
+   ]
+  ],
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Nordauto",
+  "source": "autoportaal",
+  "title": "BMW X3",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/115636",
+  "year": 2021
+ },
+ "autoportaal:115718": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "115718",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 163000,
+  "model": "GLA 200 4 MATIC AMG Line",
+  "power_kw": 100,
+  "price": 16500,
+  "price_history": [
+   [
+    "2026-10-16",
+    16500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Enely",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLA 200 4 MATIC AMG Line",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/115718",
+  "year": 2018
+ },
+ "autoportaal:115789": {
+  "body": "7 kohta",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "115789",
+  "last_seen": "2026-10-16",
+  "make": "Skoda",
+  "mileage": 79900,
+  "model": "Kodiaq Elegance FL 4x4",
+  "power_kw": 147,
+  "price": 31500,
+  "price_history": [
+   [
+    "2026-10-16",
+    31500
+   ]
+  ],
+  "searches": [
+   "Škoda Superb 4x4"
+  ],
+  "seller": "Uuemõisa Autokeskus",
+  "source": "autoportaal",
+  "title": "Škoda Kodiaq Elegance FL 4x4",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/115789",
+  "year": 2022
+ },
+ "autoportaal:115791": {
+  "body": "universaal",
+  "drive": "esivedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "115791",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 94000,
+  "model": "CLA",
+  "power_kw": 90,
+  "price": 16150,
+  "price_history": [
+   [
+    "2026-10-16",
+    16150
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Auto Bassadone Laagri",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz CLA",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/115791",
+  "year": 2016
+ },
+ "autoportaal:115980": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "115980",
+  "last_seen": "2026-10-16",
+  "make": "Skoda",
+  "mileage": 136000,
+  "model": "Octavia Laurin&Klement",
+  "power_kw": 110,
+  "price": 18000,
+  "price_history": [
+   [
+    "2026-10-16",
+    18000
+   ]
+  ],
+  "searches": [
+   "Škoda Superb 4x4"
+  ],
+  "seller": "Aivar",
+  "source": "autoportaal",
+  "title": "Škoda Octavia Laurin&Klement",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/115980",
+  "year": 2019
+ },
+ "autoportaal:116068": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "116068",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 110531,
+  "model": "C 220 d 4Matic All-Terrain",
+  "power_kw": 147,
+  "price": 33500,
+  "price_history": [
+   [
+    "2026-10-16",
+    33500
+   ]
+  ],
+  "searches": [
+   "Mercedes C-klass",
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Veho OÜ Pärnu esindus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 220 d 4Matic All-Terrain",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/116068",
+  "year": 2023
+ },
+ "autoportaal:116182": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "116182",
+  "last_seen": "2026-10-16",
+  "make": "Volkswagen",
+  "mileage": 139160,
+  "model": "Passat",
+  "power_kw": 147,
+  "price": 23500,
+  "price_history": [
+   [
+    "2026-10-16",
+    23500
+   ]
+  ],
+  "searches": [
+   "VW Passat / Arteon 4x4"
+  ],
+  "seller": "Moller Auto Mustamäe",
+  "source": "autoportaal",
+  "title": "Volkswagen Passat",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/116182",
+  "year": 2021
+ },
+ "autoportaal:116672": {
+  "body": "universaal",
+  "drive": "esivedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "116672",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 211000,
+  "model": "CLA 250 Shooting Brake, AMG, Night Package",
+  "power_kw": 173,
+  "price": 21000,
+  "price_history": [
+   [
+    "2026-10-16",
+    21000
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Rainer",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz CLA 250 Shooting Brake, AMG, Night Package",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/116672",
+  "year": 2020
+ },
+ "autoportaal:116724": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "116724",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 10000,
+  "model": "E 53 AMG 4MATIC+ T-MODEL LUXURY BURMESTER FULL",
+  "power_kw": 450,
+  "price": 90990,
+  "price_history": [
+   [
+    "2026-10-16",
+    90990
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Euest",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 53 AMG 4MATIC+ T-MODEL LUXURY BURMESTER FULL",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/116724",
+  "year": 2025
+ },
+ "autoportaal:116853": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "116853",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 168215,
+  "model": "GLC 400",
+  "power_kw": 243,
+  "price": 33650,
+  "price_history": [
+   [
+    "2026-10-16",
+    33650
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Moller Auto Pärnu",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLC 400",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/116853",
+  "year": 2020
+ },
+ "autoportaal:116958": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "116958",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 300500,
+  "model": "CLA 220",
+  "power_kw": 130,
+  "price": 13900,
+  "price_history": [
+   [
+    "2026-10-16",
+    13900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Helen Int",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz CLA 220",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/116958",
+  "year": 2017
+ },
+ "autoportaal:117080": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "117080",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 28334,
+  "model": "GLE 53 AMG 4Matic+ Night Pakett",
+  "power_kw": 321,
+  "price": 78999,
+  "price_history": [
+   [
+    "2026-10-16",
+    78999
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "CarProf Autokeskus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLE 53 AMG 4Matic+ Night Pakett",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/117080",
+  "year": 2022
+ },
+ "autoportaal:117207": {
+  "body": "7 kohta",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "117207",
+  "last_seen": "2026-10-16",
+  "make": "Volkswagen",
+  "mileage": 128273,
+  "model": "Tiguan Allspace",
+  "power_kw": 140,
+  "price": 27450,
+  "price_history": [
+   [
+    "2026-10-16",
+    27450
+   ]
+  ],
+  "searches": [
+   "VW Passat / Arteon 4x4"
+  ],
+  "seller": "Moller Auto Ülemiste",
+  "source": "autoportaal",
+  "title": "Volkswagen Tiguan Allspace",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/117207",
+  "year": 2022
+ },
+ "autoportaal:117337": {
+  "body": "7 kohta",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "117337",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 131858,
+  "model": "V 300 4matic AMG",
+  "power_kw": 174,
+  "price": 64900,
+  "price_history": [
+   [
+    "2026-10-16",
+    64900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Nordauto",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz V 300 4matic AMG",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/117337",
+  "year": 2024
+ },
+ "autoportaal:117525": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "117525",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 93000,
+  "model": "E 200",
+  "power_kw": 118,
+  "price": 26999,
+  "price_history": [
+   [
+    "2026-10-16",
+    26999
+   ]
+  ],
+  "searches": [
+   "Mercedes C-klass",
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "R",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 200",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/117525",
+  "year": 2022
+ },
+ "autoportaal:117567": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "117567",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 174000,
+  "model": "E 220",
+  "power_kw": 143,
+  "price": 18500,
+  "price_history": [
+   [
+    "2026-10-16",
+    18500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Ivo",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 220",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/117567",
+  "year": 2017
+ },
+ "autoportaal:117576": {
+  "body": "universaal",
+  "drive": "esivedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Elekter",
+  "id": "117576",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 36700,
+  "model": "EQB 250 AMG",
+  "power_kw": 140,
+  "price": 42590,
+  "price_history": [
+   [
+    "2026-10-16",
+    42590
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "kuldar",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz EQB 250 AMG",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/117576",
+  "year": 2025
+ },
+ "autoportaal:117782": {
+  "body": "8 kohta",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "117782",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 128700,
+  "model": "V 250 Facelift",
+  "power_kw": 140,
+  "price": 40590,
+  "price_history": [
+   [
+    "2026-10-16",
+    40590
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "kj",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz V 250 Facelift",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/117782",
+  "year": 2020
+ },
+ "autoportaal:117806": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "117806",
+  "last_seen": "2026-10-16",
+  "make": "Volkswagen",
+  "mileage": 132095,
+  "model": "Tiguan",
+  "power_kw": 147,
+  "price": 29350,
+  "price_history": [
+   [
+    "2026-10-16",
+    29350
+   ]
+  ],
+  "searches": [
+   "VW Passat / Arteon 4x4"
+  ],
+  "seller": "Moller Auto Ülemiste",
+  "source": "autoportaal",
+  "title": "Volkswagen Tiguan",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/117806",
+  "year": 2023
+ },
+ "autoportaal:118056": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "118056",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 153161,
+  "model": "C 220 Avantgarde",
+  "power_kw": 125,
+  "price": 17899,
+  "price_history": [
+   [
+    "2026-10-16",
+    17899
+   ]
+  ],
+  "searches": [
+   "Mercedes C-klass",
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Longo",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 220 Avantgarde",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/118056",
+  "year": 2018
+ },
+ "autoportaal:118079": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "118079",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 278000,
+  "model": "C 220 Business AMG Night Edition",
+  "power_kw": 141,
+  "price": 17900,
+  "price_history": [
+   [
+    "2026-10-16",
+    17900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Sandauto",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 220 Business AMG Night Edition",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/118079",
+  "year": 2020
+ },
+ "autoportaal:118150": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "118150",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 41135,
+  "model": "GLE",
+  "power_kw": 450,
+  "price": 119900,
+  "price_history": [
+   [
+    "2026-10-16",
+    119900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Morecar",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLE",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/118150",
+  "year": 2024
+ },
+ "autoportaal:118220": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "118220",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 319401,
+  "model": "C 200",
+  "power_kw": 100,
+  "price": 13500,
+  "price_history": [
+   [
+    "2026-10-16",
+    13500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Andrias",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 200",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/118220",
+  "year": 2017
+ },
+ "autoportaal:118593": {
+  "body": "universaal",
+  "drive": "esivedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "118593",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 85000,
+  "model": "A 200 DISAINI- JA VARUSTUSPAKETT",
+  "power_kw": 120,
+  "price": 22900,
+  "price_history": [
+   [
+    "2026-10-16",
+    22900
+   ]
+  ],
+  "searches": [
+   "Mercedes C-klass",
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Eveken",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz A 200 DISAINI- JA VARUSTUSPAKETT",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/118593",
+  "year": 2019
+ },
+ "autoportaal:118628": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "118628",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 217000,
+  "model": "C 220 C 220 D AMG Night Edition",
+  "power_kw": 147,
+  "price": 22900,
+  "price_history": [
+   [
+    "2026-10-16",
+    22900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Sandauto",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 220 C 220 D AMG Night Edition",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/118628",
+  "year": 2022
+ },
+ "autoportaal:118632": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "118632",
+  "last_seen": "2026-10-16",
+  "make": "Skoda",
+  "mileage": 56000,
+  "model": "Kodiaq",
+  "power_kw": 110,
+  "price": 26000,
+  "price_history": [
+   [
+    "2026-10-16",
+    26000
+   ]
+  ],
+  "searches": [
+   "Škoda Superb 4x4"
+  ],
+  "seller": "Andres",
+  "source": "autoportaal",
+  "title": "Škoda Kodiaq",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/118632",
+  "year": 2024
+ },
+ "autoportaal:118652": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "118652",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 52000,
+  "model": "GLC 200",
+  "power_kw": 150,
+  "price": 48900,
+  "price_history": [
+   [
+    "2026-10-16",
+    48900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "DM",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLC 200",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/118652",
+  "year": 2023
+ },
+ "autoportaal:118687": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "118687",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 247146,
+  "model": "E 220 Avantgarde Line",
+  "power_kw": 143,
+  "price": 18999,
+  "price_history": [
+   [
+    "2026-10-16",
+    18999
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Longo",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 220 Avantgarde Line",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/118687",
+  "year": 2017
+ },
+ "autoportaal:118739": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "118739",
+  "last_seen": "2026-10-16",
+  "make": "Volkswagen",
+  "mileage": 118294,
+  "model": "Arteon",
+  "power_kw": 147,
+  "price": 30099,
+  "price_history": [
+   [
+    "2026-10-16",
+    30099
+   ]
+  ],
+  "searches": [
+   "VW Passat / Arteon 4x4"
+  ],
+  "seller": "Moller Auto Keskladu",
+  "source": "autoportaal",
+  "title": "Volkswagen Arteon",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/118739",
+  "year": 2022
+ },
+ "autoportaal:118812": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "118812",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 22000,
+  "model": "G 63 AMG Night Package",
+  "power_kw": 430,
+  "price": 255000,
+  "price_history": [
+   [
+    "2026-10-16",
+    255000
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Premium Select Luxury",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz G 63 AMG Night Package",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/118812",
+  "year": 2025
+ },
+ "autoportaal:118874": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "118874",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 114,
+  "model": "C 200",
+  "power_kw": 100,
+  "price": 7000,
+  "price_history": [
+   [
+    "2026-10-16",
+    7000
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Andrus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 200",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/118874",
+  "year": 2018
+ },
+ "autoportaal:118884": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "118884",
+  "last_seen": "2026-10-16",
+  "make": "Skoda",
+  "mileage": 109300,
+  "model": "Kodiaq RS",
+  "power_kw": 176,
+  "price": 29900,
+  "price_history": [
+   [
+    "2026-10-16",
+    29900
+   ]
+  ],
+  "searches": [
+   "Škoda Superb 4x4"
+  ],
+  "seller": "Audi Tartu",
+  "source": "autoportaal",
+  "title": "Škoda Kodiaq RS",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/118884",
+  "year": 2020
+ },
+ "autoportaal:118930": {
+  "body": "7 kohta",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "118930",
+  "last_seen": "2026-10-16",
+  "make": "Volkswagen",
+  "mileage": 56000,
+  "model": "Tiguan Allspace, Rline Highline",
+  "power_kw": 137,
+  "price": 21000,
+  "price_history": [
+   [
+    "2026-10-16",
+    21000
+   ]
+  ],
+  "searches": [
+   "VW Passat / Arteon 4x4"
+  ],
+  "seller": "Artem",
+  "source": "autoportaal",
+  "title": "Volkswagen Tiguan Allspace, Rline Highline",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/118930",
+  "year": 2019
+ },
+ "autoportaal:118951": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "118951",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 189027,
+  "model": "C 220 AMG Line",
+  "power_kw": 143,
+  "price": 19399,
+  "price_history": [
+   [
+    "2026-10-16",
+    19399
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Longo",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 220 AMG Line",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/118951",
+  "year": 2019
+ },
+ "autoportaal:119102": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "119102",
+  "last_seen": "2026-10-16",
+  "make": "Skoda",
+  "mileage": 117695,
+  "model": "Karoq Elegance FL",
+  "power_kw": 110,
+  "price": 23990,
+  "price_history": [
+   [
+    "2026-10-16",
+    23990
+   ]
+  ],
+  "searches": [
+   "Škoda Superb 4x4"
+  ],
+  "seller": "Ideal Auto",
+  "source": "autoportaal",
+  "title": "Škoda Karoq Elegance FL",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/119102",
+  "year": 2023
+ },
+ "autoportaal:119207": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "119207",
+  "last_seen": "2026-10-16",
+  "make": "Volkswagen",
+  "mileage": 87498,
+  "model": "Passat 4Motion Variant",
+  "power_kw": 147,
+  "price": 30990,
+  "price_history": [
+   [
+    "2026-10-16",
+    30990
+   ]
+  ],
+  "searches": [
+   "VW Passat / Arteon 4x4"
+  ],
+  "seller": "ABC Motors AS",
+  "source": "autoportaal",
+  "title": "Volkswagen Passat 4Motion Variant",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/119207",
+  "year": 2023
+ },
+ "autoportaal:119326": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "119326",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 124800,
+  "model": "C 220 d 4Matic",
+  "power_kw": 147,
+  "price": 31900,
+  "price_history": [
+   [
+    "2026-10-16",
+    31900
+   ]
+  ],
+  "searches": [
+   "Mercedes C-klass"
+  ],
+  "seller": "Veho OÜ Tallinna esindus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 220 d 4Matic",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/119326",
+  "year": 2023
+ },
+ "autoportaal:119553": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "119553",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 137000,
+  "model": "530",
+  "power_kw": 195,
+  "price": 28900,
+  "price_history": [
+   [
+    "2026-10-16",
+    28900
+   ]
+  ],
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Oleg",
+  "source": "autoportaal",
+  "title": "BMW 530",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/119553",
+  "year": 2019
+ },
+ "autoportaal:119608": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "119608",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 152000,
+  "model": "C 200",
+  "power_kw": 120,
+  "price": 24500,
+  "price_history": [
+   [
+    "2026-10-16",
+    24500
+   ]
+  ],
+  "searches": [
+   "Mercedes C-klass"
+  ],
+  "seller": "Moller Auto Pärnu",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 200",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/119608",
+  "year": 2023
+ },
+ "autoportaal:120156": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "120156",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 50650,
+  "model": "X2 xDrive25e M-Sportpakett",
+  "power_kw": 162,
+  "price": 26900,
+  "price_history": [
+   [
+    "2026-10-16",
+    26900
+   ]
+  ],
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Inchcape Motors Tallinna esindus",
+  "source": "autoportaal",
+  "title": "BMW X2 xDrive25e M-Sportpakett",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/120156",
+  "year": 2022
+ },
+ "autoportaal:120588": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "120588",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 131000,
+  "model": "320",
+  "power_kw": 140,
+  "price": 26500,
+  "price_history": [
+   [
+    "2026-10-16",
+    26500
+   ]
+  ],
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Stanislav",
+  "source": "autoportaal",
+  "title": "BMW 320",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/120588",
+  "year": 2021
+ },
+ "autoportaal:120766": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "120766",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 142500,
+  "model": "GLC 350 4Matic AMG pakett",
+  "power_kw": 190,
+  "price": 28900,
+  "price_history": [
+   [
+    "2026-10-16",
+    28900
+   ]
+  ],
+  "searches": [
+   "Mercedes C-klass"
+  ],
+  "seller": "Marko",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLC 350 4Matic AMG pakett",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/120766",
+  "year": 2018
+ },
+ "autoportaal:120961": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "120961",
+  "last_seen": "2026-10-16",
+  "make": "Subaru",
+  "mileage": 110000,
+  "model": "Outback",
+  "power_kw": 129,
+  "price": 24050,
+  "price_history": [
+   [
+    "2026-10-16",
+    24050
+   ]
+  ],
+  "searches": [
+   "Subaru Outback"
+  ],
+  "seller": "Auto Bassadone Laagri",
+  "source": "autoportaal",
+  "title": "Subaru Outback",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/120961",
+  "year": 2020
+ },
+ "autoportaal:121075": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "121075",
+  "last_seen": "2026-10-16",
+  "make": "Subaru",
+  "mileage": 120289,
+  "model": "Outback AWD",
+  "power_kw": 124,
+  "price": 25490,
+  "price_history": [
+   [
+    "2026-10-16",
+    25490
+   ]
+  ],
+  "searches": [
+   "Subaru Outback"
+  ],
+  "seller": "Amserv Tallinn",
+  "source": "autoportaal",
+  "title": "Subaru Outback AWD",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/121075",
+  "year": 2022
+ },
+ "autoportaal:12112": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "12112",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 166986,
+  "model": "C 200 Business Line",
+  "power_kw": 118,
+  "price": 17499,
+  "price_history": [
+   [
+    "2026-10-16",
+    17499
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Longo",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 200 Business Line",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/12112",
+  "year": 2020
+ },
+ "autoportaal:121128": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "121128",
+  "last_seen": "2026-10-16",
+  "make": "Skoda",
+  "mileage": 98000,
+  "model": "Kodiaq RS",
+  "power_kw": 176,
+  "price": 29999,
+  "price_history": [
+   [
+    "2026-10-16",
+    29999
+   ]
+  ],
+  "searches": [
+   "Škoda Superb 4x4"
+  ],
+  "seller": "Marko",
+  "source": "autoportaal",
+  "title": "Škoda Kodiaq RS",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/121128",
+  "year": 2019
+ },
+ "autoportaal:121541": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "121541",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 12500,
+  "model": "GLE 350 de 4Matic AMG",
+  "power_kw": 145,
+  "price": 79900,
+  "price_history": [
+   [
+    "2026-10-16",
+    79900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Premium Select Luxury",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLE 350 de 4Matic AMG",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/121541",
+  "year": 2024
+ },
+ "autoportaal:121566": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Elekter",
+  "id": "121566",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 35000,
+  "model": "EQB 4Matic Progressive",
+  "power_kw": 139,
+  "price": 39900,
+  "price_history": [
+   [
+    "2026-10-16",
+    39900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Veho OÜ Tallinna esindus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz EQB 4Matic Progressive",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/121566",
+  "year": 2024
+ },
+ "autoportaal:121572": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "121572",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 234756,
+  "model": "E 220 AMG",
+  "power_kw": 143,
+  "price": 19499,
+  "price_history": [
+   [
+    "2026-10-16",
+    19499
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Longo",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 220 AMG",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/121572",
+  "year": 2018
+ },
+ "autoportaal:121589": {
+  "body": "universaal",
+  "drive": "esivedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "121589",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 46000,
+  "model": "GLB 180 Progressive",
+  "power_kw": 100,
+  "price": 40900,
+  "price_history": [
+   [
+    "2026-10-16",
+    40900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Veho OÜ Tallinna esindus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLB 180 Progressive",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/121589",
+  "year": 2025
+ },
+ "autoportaal:121608": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "121608",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 113789,
+  "model": "GLE 53 AMG",
+  "power_kw": 320,
+  "price": 64900,
+  "price_history": [
+   [
+    "2026-10-16",
+    64900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Giga Cars",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLE 53 AMG",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/121608",
+  "year": 2021
+ },
+ "autoportaal:121616": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "121616",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 113789,
+  "model": "GLE 53 AMG",
+  "power_kw": 320,
+  "price": 960,
+  "price_history": [
+   [
+    "2026-10-16",
+    960
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Giga Cars",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLE 53 AMG",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/121616",
+  "year": 2021
+ },
+ "autoportaal:121672": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "121672",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 155,
+  "model": "C 200",
+  "power_kw": 110,
+  "price": 17900,
+  "price_history": [
+   [
+    "2026-10-16",
+    17900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Marko",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 200",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/121672",
+  "year": 2018
+ },
+ "autoportaal:121674": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "121674",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 251000,
+  "model": "E 220",
+  "power_kw": 143,
+  "price": 19500,
+  "price_history": [
+   [
+    "2026-10-16",
+    19500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Reio",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 220",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/121674",
+  "year": 2017
+ },
+ "autoportaal:121793": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "121793",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 38000,
+  "model": "E 220 Amg",
+  "power_kw": 145,
+  "price": 49000,
+  "price_history": [
+   [
+    "2026-10-16",
+    49000
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Mark",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 220 Amg",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/121793",
+  "year": 2024
+ },
+ "autoportaal:121819": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "121819",
+  "last_seen": "2026-10-16",
+  "make": "Subaru",
+  "mileage": 87930,
+  "model": "XV",
+  "power_kw": 110,
+  "price": 15800,
+  "price_history": [
+   [
+    "2026-10-16",
+    15800
+   ]
+  ],
+  "searches": [
+   "Subaru Outback"
+  ],
+  "seller": "Janek",
+  "source": "autoportaal",
+  "title": "Subaru XV",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/121819",
+  "year": 2021
+ },
+ "autoportaal:121837": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "121837",
+  "last_seen": "2026-10-16",
+  "make": "Subaru",
+  "mileage": 112184,
+  "model": "XV",
+  "power_kw": 110,
+  "price": 15000,
+  "price_history": [
+   [
+    "2026-10-16",
+    15000
+   ]
+  ],
+  "searches": [
+   "Subaru Outback"
+  ],
+  "seller": "Janek",
+  "source": "autoportaal",
+  "title": "Subaru XV",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/121837",
+  "year": 2021
+ },
+ "autoportaal:121894": {
+  "body": "7 kohta",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "121894",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 87991,
+  "model": "V 250 4Matic Avantgarde A2",
+  "power_kw": 140,
+  "price": 69990,
+  "price_history": [
+   [
+    "2026-10-16",
+    69990
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Veho OÜ Väo esindus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz V 250 4Matic Avantgarde A2",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/121894",
+  "year": 2024
+ },
+ "autoportaal:121969": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "121969",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 89300,
+  "model": "330 Touring M-Sportpakett",
+  "power_kw": 135,
+  "price": 26900,
+  "price_history": [
+   [
+    "2026-10-16",
+    26900
+   ]
+  ],
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "United Motors Peetri",
+  "source": "autoportaal",
+  "title": "BMW 330 Touring M-Sportpakett",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/121969",
+  "year": 2021
+ },
+ "autoportaal:122146": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "122146",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 58230,
+  "model": "GLB 200 AMG",
+  "power_kw": 120,
+  "price": 34500,
+  "price_history": [
+   [
+    "2026-10-16",
+    34500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Vjatseslav",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLB 200 AMG",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/122146",
+  "year": 2022
+ },
+ "autoportaal:122201": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "122201",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": null,
+  "model": "E 220",
+  "power_kw": null,
+  "price": 6900,
+  "price_history": [
+   [
+    "2026-10-16",
+    6900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Tom",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 220",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/122201",
+  "year": 2016
+ },
+ "autoportaal:122292": {
+  "body": "8 kohta",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "122292",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 68334,
+  "model": "V 300 d 4matic AMG",
+  "power_kw": 174,
+  "price": 79900,
+  "price_history": [
+   [
+    "2026-10-16",
+    79900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Nordauto",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz V 300 d 4matic AMG",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/122292",
+  "year": 2024
+ },
+ "autoportaal:122312": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "122312",
+  "last_seen": "2026-10-16",
+  "make": "Volkswagen",
+  "mileage": 99954,
+  "model": "Tiguan",
+  "power_kw": 110,
+  "price": 28500,
+  "price_history": [
+   [
+    "2026-10-16",
+    28500
+   ]
+  ],
+  "searches": [
+   "VW Passat / Arteon 4x4"
+  ],
+  "seller": "Moller Auto Ülemiste",
+  "source": "autoportaal",
+  "title": "Volkswagen Tiguan",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/122312",
+  "year": 2022
+ },
+ "autoportaal:122343": {
+  "body": "universaal",
+  "drive": "esivedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "122343",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 28700,
+  "model": "A 180 AMG",
+  "power_kw": 100,
+  "price": 25900,
+  "price_history": [
+   [
+    "2026-10-16",
+    25900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Inchcape Motors Peetri esindus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz A 180 AMG",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/122343",
+  "year": 2022
+ },
+ "autoportaal:122513": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "122513",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 238413,
+  "model": "E 220 D 4Matic AMG",
+  "power_kw": 143,
+  "price": 18500,
+  "price_history": [
+   [
+    "2026-10-16",
+    18500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "E-Autoline",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 220 D 4Matic AMG",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/122513",
+  "year": 2018
+ },
+ "autoportaal:122608": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "122608",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 237444,
+  "model": "C 220 Ambition",
+  "power_kw": 125,
+  "price": 12699,
+  "price_history": [
+   [
+    "2026-10-16",
+    12699
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Longo",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 220 Ambition",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/122608",
+  "year": 2016
+ },
+ "autoportaal:122749": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "122749",
+  "last_seen": "2026-10-16",
+  "make": "Volkswagen",
+  "mileage": 68000,
+  "model": "Tiguan Allspace R-Line 4motion",
+  "power_kw": 180,
+  "price": 28900,
+  "price_history": [
+   [
+    "2026-10-16",
+    28900
+   ]
+  ],
+  "searches": [
+   "VW Passat / Arteon 4x4"
+  ],
+  "seller": "Viking Motors Peetri",
+  "source": "autoportaal",
+  "title": "Volkswagen Tiguan Allspace R-Line 4motion",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/122749",
+  "year": 2022
+ },
+ "autoportaal:122769": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "122769",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 135000,
+  "model": "E 300",
+  "power_kw": 143,
+  "price": 25000,
+  "price_history": [
+   [
+    "2026-10-16",
+    25000
+   ]
+  ],
+  "searches": [
+   "Mercedes C-klass",
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Stig",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 300",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/122769",
+  "year": 2019
+ },
+ "autoportaal:122829": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "122829",
+  "last_seen": "2026-10-16",
+  "make": "Subaru",
+  "mileage": 78811,
+  "model": "Outback",
+  "power_kw": 124,
+  "price": 23900,
+  "price_history": [
+   [
+    "2026-10-16",
+    23900
+   ]
+  ],
+  "searches": [
+   "Subaru Outback"
+  ],
+  "seller": "Topauto Rocca",
+  "source": "autoportaal",
+  "title": "Subaru Outback",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/122829",
+  "year": 2021
+ },
+ "autoportaal:123025": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "123025",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 131000,
+  "model": "E",
+  "power_kw": 143,
+  "price": 27500,
+  "price_history": [
+   [
+    "2026-10-16",
+    27500
+   ]
+  ],
+  "searches": [
+   "Mercedes C-klass",
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Auto Bassadone Laagri",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/123025",
+  "year": 2018
+ },
+ "autoportaal:123181": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "123181",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 212400,
+  "model": "GLC 250 D 4Matic AMG",
+  "power_kw": 155,
+  "price": 22990,
+  "price_history": [
+   [
+    "2026-10-16",
+    22990
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Inchcape Motors Peetri esindus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLC 250 D 4Matic AMG",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/123181",
+  "year": 2018
+ },
+ "autoportaal:123183": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "123183",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 115045,
+  "model": "X3 xDrive30d M-Sportpakett",
+  "power_kw": 195,
+  "price": 30900,
+  "price_history": [
+   [
+    "2026-10-16",
+    30900
+   ]
+  ],
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Inchcape Motors Tallinna esindus",
+  "source": "autoportaal",
+  "title": "BMW X3 xDrive30d M-Sportpakett",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/123183",
+  "year": 2018
+ },
+ "autoportaal:123205": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "123205",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 37000,
+  "model": "GLC 300 AMG LINE",
+  "power_kw": 198,
+  "price": 59990,
+  "price_history": [
+   [
+    "2026-10-16",
+    59990
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Import Auto Pärnu",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLC 300 AMG LINE",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/123205",
+  "year": 2024
+ },
+ "autoportaal:17819": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "17819",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 109000,
+  "model": "AMG E 63 S 4MATIC",
+  "power_kw": 450,
+  "price": 55900,
+  "price_history": [
+   [
+    "2026-10-16",
+    55900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Premium Select Luxury",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz AMG E 63 S 4MATIC",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/17819",
+  "year": 2017
+ },
+ "autoportaal:17869": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "17869",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-AMG",
+  "mileage": 28000,
+  "model": "GT 4MATIC 4DOOR EQ F1 EDITION BITURBO",
+  "power_kw": 620,
+  "price": 165000,
+  "price_history": [
+   [
+    "2026-10-16",
+    165000
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Premium Select Luxury",
+  "source": "autoportaal",
+  "title": "Mercedes-AMG GT 4MATIC 4DOOR EQ F1 EDITION BITURBO",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/17869",
+  "year": 2023
+ },
+ "autoportaal:18536": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "18536",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 170000,
+  "model": "C 250 4MATIC",
+  "power_kw": 150,
+  "price": 18600,
+  "price_history": [
+   [
+    "2026-10-16",
+    18600
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Erich Küll",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 250 4MATIC",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/18536",
+  "year": 2017
+ },
+ "autoportaal:20107": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "20107",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 142,
+  "model": "C 200 AMG line",
+  "power_kw": 118,
+  "price": 16998,
+  "price_history": [
+   [
+    "2026-10-16",
+    16998
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Yuri Harrak",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 200 AMG line",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/20107",
+  "year": 2019
+ },
+ "autoportaal:20708": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "20708",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 87000,
+  "model": "GLC 300 DE 4MATIC AMG Night Package",
+  "power_kw": 225,
+  "price": 36900,
+  "price_history": [
+   [
+    "2026-10-16",
+    36900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Premium Select Luxury",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLC 300 DE 4MATIC AMG Night Package",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/20708",
+  "year": 2021
+ },
+ "autoportaal:27120": {
+  "body": "7 kohta",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "27120",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 45700,
+  "model": "V 300 Exclusive A2 4Matic",
+  "power_kw": 174,
+  "price": 89900,
+  "price_history": [
+   [
+    "2026-10-16",
+    89900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Veho OÜ Väo esindus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz V 300 Exclusive A2 4Matic",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/27120",
+  "year": 2024
+ },
+ "autoportaal:27887": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "27887",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 340300,
+  "model": "E 220 d Avangarde Facelift EU6",
+  "power_kw": 143,
+  "price": 15999,
+  "price_history": [
+   [
+    "2026-10-16",
+    15999
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Ksauto",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 220 d Avangarde Facelift EU6",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/27887",
+  "year": 2018
+ },
+ "autoportaal:31292": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "31292",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 60148,
+  "model": "E 300 4-MATIC AMG Night Packet",
+  "power_kw": 143,
+  "price": 44900,
+  "price_history": [
+   [
+    "2026-10-16",
+    44900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Martin",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 300 4-MATIC AMG Night Packet",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/31292",
+  "year": 2022
+ },
+ "autoportaal:33342": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "33342",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 82000,
+  "model": "GLC 220",
+  "power_kw": 143,
+  "price": 41900,
+  "price_history": [
+   [
+    "2026-10-16",
+    41900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "K.S",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLC 220",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/33342",
+  "year": 2020
+ },
+ "autoportaal:34661": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "34661",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 86245,
+  "model": "CLA 45 AMG Shooting Brake",
+  "power_kw": 309,
+  "price": 28700,
+  "price_history": [
+   [
+    "2026-10-16",
+    28700
+   ]
+  ],
+  "searches": [
+   "Mercedes C-klass",
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Martin",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz CLA 45 AMG Shooting Brake",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/34661",
+  "year": 2017
+ },
+ "autoportaal:35942": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Elekter",
+  "id": "35942",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 55000,
+  "model": "EQC AMG",
+  "power_kw": 145,
+  "price": 44000,
+  "price_history": [
+   [
+    "2026-10-16",
+    44000
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "MB",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz EQC AMG",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/35942",
+  "year": 2022
+ },
+ "autoportaal:38330": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "38330",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 156500,
+  "model": "C 200 AMG line",
+  "power_kw": 118,
+  "price": 16700,
+  "price_history": [
+   [
+    "2026-10-16",
+    16700
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Yuri",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 200 AMG line",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/38330",
+  "year": 2019
+ },
+ "autoportaal:40923": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "40923",
+  "last_seen": "2026-10-16",
+  "make": "Skoda",
+  "mileage": 106000,
+  "model": "Kodiaq Style/Elegance",
+  "power_kw": 140,
+  "price": 27000,
+  "price_history": [
+   [
+    "2026-10-16",
+    27000
+   ]
+  ],
+  "searches": [
+   "Škoda Superb 4x4"
+  ],
+  "seller": "Jaanus",
+  "source": "autoportaal",
+  "title": "Škoda Kodiaq Style/Elegance",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/40923",
+  "year": 2020
+ },
+ "autoportaal:42884": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "42884",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 55404,
+  "model": "C 43 AMG 4matic+ 48V",
+  "power_kw": 300,
+  "price": 54900,
+  "price_history": [
+   [
+    "2026-10-16",
+    54900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Nordauto",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 43 AMG 4matic+ 48V",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/42884",
+  "year": 2023
+ },
+ "autoportaal:45303": {
+  "body": "7 kohta",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "45303",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 61000,
+  "model": "V 250 4Matic Avantgarde A2 d",
+  "power_kw": 140,
+  "price": 74900,
+  "price_history": [
+   [
+    "2026-10-16",
+    74900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Veho OÜ Väo esindus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz V 250 4Matic Avantgarde A2 d",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/45303",
+  "year": 2024
+ },
+ "autoportaal:45603": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "45603",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 186594,
+  "model": "E 220 AMG, BURM, 360, WEBASTO, KONKS, PANO,",
+  "power_kw": 143,
+  "price": 29000,
+  "price_history": [
+   [
+    "2026-10-16",
+    29000
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Tanel",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 220 AMG, BURM, 360, WEBASTO, KONKS, PANO,",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/45603",
+  "year": 2021
+ },
+ "autoportaal:46694": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "46694",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 124000,
+  "model": "CLA 200",
+  "power_kw": 110,
+  "price": 25000,
+  "price_history": [
+   [
+    "2026-10-16",
+    25000
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Peeter",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz CLA 200",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/46694",
+  "year": 2020
+ },
+ "autoportaal:48686": {
+  "body": "7 kohta",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "48686",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 145000,
+  "model": "V-KLASSE panoraam katus,el uksed ,kylmik ja laud salongis",
+  "power_kw": 140,
+  "price": 36900,
+  "price_history": [
+   [
+    "2026-10-16",
+    36900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Villi",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz V-KLASSE panoraam katus,el uksed ,kylmik ja laud salongis",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/48686",
+  "year": 2018
+ },
+ "autoportaal:49381": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "49381",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 144000,
+  "model": "GLE 400",
+  "power_kw": 245,
+  "price": 30000,
+  "price_history": [
+   [
+    "2026-10-16",
+    30000
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Tiit Piibeleht",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLE 400",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/49381",
+  "year": 2017
+ },
+ "autoportaal:49696": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "49696",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 104000,
+  "model": "C 200",
+  "power_kw": 135,
+  "price": 21000,
+  "price_history": [
+   [
+    "2026-10-16",
+    21000
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Kristo",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 200",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/49696",
+  "year": 2018
+ },
+ "autoportaal:50126": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "50126",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-AMG",
+  "mileage": 109700,
+  "model": "GT Night Package   PERFORMANCE - Exterior",
+  "power_kw": 270,
+  "price": 59990,
+  "price_history": [
+   [
+    "2026-10-16",
+    59990
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Krisse Invest OÜ",
+  "source": "autoportaal",
+  "title": "Mercedes-AMG GT Night Package   PERFORMANCE - Exterior",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/50126",
+  "year": 2021
+ },
+ "autoportaal:50358": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "50358",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 199999,
+  "model": "C 250",
+  "power_kw": 150,
+  "price": 22900,
+  "price_history": [
+   [
+    "2026-10-16",
+    22900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "393LYN",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 250",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/50358",
+  "year": 2018
+ },
+ "autoportaal:56241": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "56241",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 97345,
+  "model": "E 300",
+  "power_kw": 143,
+  "price": 31000,
+  "price_history": [
+   [
+    "2026-10-16",
+    31000
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Müüja",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 300",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/56241",
+  "year": 2021
+ },
+ "autoportaal:56457": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "56457",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 114,
+  "model": "C 220",
+  "power_kw": 125,
+  "price": 14999,
+  "price_history": [
+   [
+    "2026-10-16",
+    14999
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Ivo",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 220",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/56457",
+  "year": 2017
+ },
+ "autoportaal:56872": {
+  "body": "8 kohta",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "56872",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 99800,
+  "model": "V-KLASSE",
+  "power_kw": 176,
+  "price": 55000,
+  "price_history": [
+   [
+    "2026-10-16",
+    55000
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Joonas",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz V-KLASSE",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/56872",
+  "year": 2020
+ },
+ "autoportaal:5698": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "5698",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 227498,
+  "model": "C 200 Business Solution",
+  "power_kw": 118,
+  "price": 15199,
+  "price_history": [
+   [
+    "2026-10-16",
+    15199
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Longo",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 200 Business Solution",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/5698",
+  "year": 2019
+ },
+ "autoportaal:57522": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "57522",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 204088,
+  "model": "C 300 Business Solution AMG Limited",
+  "power_kw": 235,
+  "price": 20999,
+  "price_history": [
+   [
+    "2026-10-16",
+    20999
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Longo",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 300 Business Solution AMG Limited",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/57522",
+  "year": 2021
+ },
+ "autoportaal:57656": {
+  "body": "universaal",
+  "drive": "esivedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "57656",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 207059,
+  "model": "CLA 200 Business Solution",
+  "power_kw": 110,
+  "price": 18799,
+  "price_history": [
+   [
+    "2026-10-16",
+    18799
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Longo",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz CLA 200 Business Solution",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/57656",
+  "year": 2021
+ },
+ "autoportaal:57975": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Elekter",
+  "id": "57975",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 53200,
+  "model": "EQC Comfort",
+  "power_kw": 145,
+  "price": 34999,
+  "price_history": [
+   [
+    "2026-10-16",
+    34999
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Gregor",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz EQC Comfort",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/57975",
+  "year": 2020
+ },
+ "autoportaal:57989": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "57989",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 12557,
+  "model": "C 43 AMG 4matic+",
+  "power_kw": 300,
+  "price": 56900,
+  "price_history": [
+   [
+    "2026-10-16",
+    56900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Nordauto",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 43 AMG 4matic+",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/57989",
+  "year": 2023
+ },
+ "autoportaal:58309": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "58309",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 16660,
+  "model": "GLC 300 AMG Pakett",
+  "power_kw": 150,
+  "price": 64995,
+  "price_history": [
+   [
+    "2026-10-16",
+    64995
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Mobile Autokeskus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLC 300 AMG Pakett",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/58309",
+  "year": 2023
+ },
+ "autoportaal:59893": {
+  "body": "universaal",
+  "drive": "esivedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "59893",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 40000,
+  "model": "CLA 250 AMG / Night / Magno",
+  "power_kw": 118,
+  "price": 30000,
+  "price_history": [
+   [
+    "2026-10-16",
+    30000
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Toomas",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz CLA 250 AMG / Night / Magno",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/59893",
+  "year": 2021
+ },
+ "autoportaal:60606": {
+  "body": "universaal",
+  "drive": "esivedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "60606",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 174000,
+  "model": "CLA 200",
+  "power_kw": 100,
+  "price": 15200,
+  "price_history": [
+   [
+    "2026-10-16",
+    15200
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Raido",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz CLA 200",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/60606",
+  "year": 2018
+ },
+ "autoportaal:60959": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "60959",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 124,
+  "model": "C 250",
+  "power_kw": 150,
+  "price": 18000,
+  "price_history": [
+   [
+    "2026-10-16",
+    18000
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "M.K.",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 250",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/60959",
+  "year": 2017
+ },
+ "autoportaal:64077": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "64077",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 201262,
+  "model": "C 180 Avantgarde",
+  "power_kw": 85,
+  "price": 11799,
+  "price_history": [
+   [
+    "2026-10-16",
+    11799
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Longo",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 180 Avantgarde",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/64077",
+  "year": 2016
+ },
+ "autoportaal:65131": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "65131",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 114,
+  "model": "C 200 Sport pakett",
+  "power_kw": 100,
+  "price": 12700,
+  "price_history": [
+   [
+    "2026-10-16",
+    12700
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "ARS Capital oü",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 200 Sport pakett",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/65131",
+  "year": 2017
+ },
+ "autoportaal:65895": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "65895",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": null,
+  "model": "200",
+  "power_kw": 100,
+  "price": 10800,
+  "price_history": [
+   [
+    "2026-10-16",
+    10800
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": null,
+  "source": "autoportaal",
+  "title": "Mercedes-Benz 200",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/65895",
+  "year": 2016
+ },
+ "autoportaal:66898": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "66898",
+  "last_seen": "2026-10-16",
+  "make": "Skoda",
+  "mileage": 129000,
+  "model": "Kodiaq Sportline Facelift 4x4",
+  "power_kw": 110,
+  "price": 31800,
+  "price_history": [
+   [
+    "2026-10-16",
+    31800
+   ]
+  ],
+  "searches": [
+   "Škoda Superb 4x4"
+  ],
+  "seller": "Karl",
+  "source": "autoportaal",
+  "title": "Škoda Kodiaq Sportline Facelift 4x4",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/66898",
+  "year": 2021
+ },
+ "autoportaal:68808": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "68808",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 170000,
+  "model": "C 180 AMG Line",
+  "power_kw": 115,
+  "price": 23400,
+  "price_history": [
+   [
+    "2026-10-16",
+    23400
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Ivan",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 180 AMG Line",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/68808",
+  "year": 2018
+ },
+ "autoportaal:69400": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "69400",
+  "last_seen": "2026-10-16",
+  "make": "Subaru",
+  "mileage": 49628,
+  "model": "Outback",
+  "power_kw": 129,
+  "price": 20000,
+  "price_history": [
+   [
+    "2026-10-16",
+    20000
+   ]
+  ],
+  "searches": [
+   "Subaru Outback"
+  ],
+  "seller": "igor",
+  "source": "autoportaal",
+  "title": "Subaru Outback",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/69400",
+  "year": 2021
+ },
+ "autoportaal:71204": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "71204",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 19400,
+  "model": "GLC 300 de 4Matic AMG",
+  "power_kw": 145,
+  "price": 54900,
+  "price_history": [
+   [
+    "2026-10-16",
+    54900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Veho OÜ Tallinna esindus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLC 300 de 4Matic AMG",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/71204",
+  "year": 2024
+ },
+ "autoportaal:71209": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "71209",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 99000,
+  "model": "C 220 AMG 4Matic",
+  "power_kw": 147,
+  "price": 39500,
+  "price_history": [
+   [
+    "2026-10-16",
+    39500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "JAPMARCAR",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 220 AMG 4Matic",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/71209",
+  "year": 2022
+ },
+ "autoportaal:71534": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "71534",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 56000,
+  "model": "GLC 300",
+  "power_kw": 150,
+  "price": 55900,
+  "price_history": [
+   [
+    "2026-10-16",
+    55900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "SK",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLC 300",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/71534",
+  "year": 2023
+ },
+ "autoportaal:72990": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "72990",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 194200,
+  "model": "GLE 350",
+  "power_kw": 190,
+  "price": 35999,
+  "price_history": [
+   [
+    "2026-10-16",
+    35999
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Jaanus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLE 350",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/72990",
+  "year": 2018
+ },
+ "autoportaal:73388": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "73388",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 295000,
+  "model": "GLE 350 4matic",
+  "power_kw": 190,
+  "price": 22999,
+  "price_history": [
+   [
+    "2026-10-16",
+    22999
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Ingmar",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLE 350 4matic",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/73388",
+  "year": 2016
+ },
+ "autoportaal:73684": {
+  "body": "7 kohta",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "73684",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 219,
+  "model": "V 220",
+  "power_kw": 140,
+  "price": 56500,
+  "price_history": [
+   [
+    "2026-10-16",
+    56500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Peritex",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz V 220",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/73684",
+  "year": 2021
+ },
+ "autoportaal:74528": {
+  "body": "7 kohta",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "74528",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 138000,
+  "model": "V 250",
+  "power_kw": 140,
+  "price": 43900,
+  "price_history": [
+   [
+    "2026-10-16",
+    43900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Jan",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz V 250",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/74528",
+  "year": 2022
+ },
+ "autoportaal:74976": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "74976",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 17279,
+  "model": "E 300 de 4matic Exclusive Airmatic",
+  "power_kw": 145,
+  "price": 49900,
+  "price_history": [
+   [
+    "2026-10-16",
+    49900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Nordauto",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 300 de 4matic Exclusive Airmatic",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/74976",
+  "year": 2024
+ },
+ "autoportaal:75742": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "75742",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 263000,
+  "model": "GLE 350",
+  "power_kw": 190,
+  "price": 25000,
+  "price_history": [
+   [
+    "2026-10-16",
+    25000
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "J",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLE 350",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/75742",
+  "year": 2019
+ },
+ "autoportaal:75754": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "75754",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 160000,
+  "model": "GLC 250",
+  "power_kw": 150,
+  "price": 22000,
+  "price_history": [
+   [
+    "2026-10-16",
+    22000
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "J",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLC 250",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/75754",
+  "year": 2018
+ },
+ "autoportaal:75982": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "75982",
+  "last_seen": "2026-10-16",
+  "make": "Skoda",
+  "mileage": 70400,
+  "model": "Superb Style",
+  "power_kw": 206,
+  "price": 27300,
+  "price_history": [
+   [
+    "2026-10-16",
+    27300
+   ]
+  ],
+  "searches": [
+   "Škoda Superb 4x4"
+  ],
+  "seller": "Maris",
+  "source": "autoportaal",
+  "title": "Škoda Superb Style",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/75982",
+  "year": 2022
+ },
+ "autoportaal:76445": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "76445",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 148000,
+  "model": "GLC 350 GLC350 D 4matic",
+  "power_kw": 190,
+  "price": 29000,
+  "price_history": [
+   [
+    "2026-10-16",
+    29000
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Sergei",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLC 350 GLC350 D 4matic",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/76445",
+  "year": 2017
+ },
+ "autoportaal:78525": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "78525",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 179,
+  "model": "GLE 350 AMG line",
+  "power_kw": 190,
+  "price": 27899,
+  "price_history": [
+   [
+    "2026-10-16",
+    27899
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Marko",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLE 350 AMG line",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/78525",
+  "year": 2017
+ },
+ "autoportaal:78792": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "78792",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-AMG",
+  "mileage": 47000,
+  "model": "E53 4Matic",
+  "power_kw": 450,
+  "price": 97900,
+  "price_history": [
+   [
+    "2026-10-16",
+    97900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "SK",
+  "source": "autoportaal",
+  "title": "Mercedes-AMG E53 4Matic",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/78792",
+  "year": 2024
+ },
+ "autoportaal:78864": {
+  "body": "universaal",
+  "drive": "esivedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Elekter",
+  "id": "78864",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 32000,
+  "model": "EQB 250",
+  "power_kw": 111,
+  "price": 33500,
+  "price_history": [
+   [
+    "2026-10-16",
+    33500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "elar",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz EQB 250",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/78864",
+  "year": 2023
+ },
+ "autoportaal:78913": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "78913",
+  "last_seen": "2026-10-16",
+  "make": "Skoda",
+  "mileage": 89000,
+  "model": "Kodiaq Sportline",
+  "power_kw": 140,
+  "price": 25000,
+  "price_history": [
+   [
+    "2026-10-16",
+    25000
+   ]
+  ],
+  "searches": [
+   "Škoda Superb 4x4"
+  ],
+  "seller": "Siim",
+  "source": "autoportaal",
+  "title": "Škoda Kodiaq Sportline",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/78913",
+  "year": 2020
+ },
+ "autoportaal:79035": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "79035",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 285000,
+  "model": "220",
+  "power_kw": 143,
+  "price": 17500,
+  "price_history": [
+   [
+    "2026-10-16",
+    17500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Kaspar",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz 220",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/79035",
+  "year": 2016
+ },
+ "autoportaal:80723": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "80723",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 279894,
+  "model": "E 220",
+  "power_kw": 143,
+  "price": 24490,
+  "price_history": [
+   [
+    "2026-10-16",
+    24490
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "ABC Motors AS",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 220",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/80723",
+  "year": 2017
+ },
+ "autoportaal:81247": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "81247",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 240000,
+  "model": "250",
+  "power_kw": 150,
+  "price": 19900,
+  "price_history": [
+   [
+    "2026-10-16",
+    19900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Raido",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz 250",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/81247",
+  "year": 2016
+ },
+ "autoportaal:84106": {
+  "body": "7 kohta",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "84106",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 172000,
+  "model": "GLS 400",
+  "power_kw": 243,
+  "price": 44900,
+  "price_history": [
+   [
+    "2026-10-16",
+    44900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "martin",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLS 400",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/84106",
+  "year": 2020
+ },
+ "autoportaal:84939": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "84939",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 336000,
+  "model": "C 200",
+  "power_kw": 100,
+  "price": 10777,
+  "price_history": [
+   [
+    "2026-10-16",
+    10777
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Kira",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 200",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/84939",
+  "year": 2016
+ },
+ "autoportaal:85096": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "85096",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 263000,
+  "model": "C 180 AMG pakett",
+  "power_kw": 85,
+  "price": 12999,
+  "price_history": [
+   [
+    "2026-10-16",
+    12999
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "ASC Motors",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 180 AMG pakett",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/85096",
+  "year": 2016
+ },
+ "autoportaal:85097": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "85097",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 230000,
+  "model": "C 200 CDI Amg pakett",
+  "power_kw": 100,
+  "price": 13500,
+  "price_history": [
+   [
+    "2026-10-16",
+    13500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "ASC Motors",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 200 CDI Amg pakett",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/85097",
+  "year": 2016
+ },
+ "autoportaal:85397": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "85397",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 263000,
+  "model": "C 350  HYBRIDE LEASE EDITION",
+  "power_kw": null,
+  "price": 10900,
+  "price_history": [
+   [
+    "2026-10-16",
+    10900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "ASC Motors",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 350  HYBRIDE LEASE EDITION",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/85397",
+  "year": 2016
+ },
+ "autoportaal:85530": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "85530",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 137,
+  "model": "C 220",
+  "power_kw": 147,
+  "price": 39500,
+  "price_history": [
+   [
+    "2026-10-16",
+    39500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Rein",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 220",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/85530",
+  "year": 2022
+ },
+ "autoportaal:85533": {
+  "body": "7 kohta",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "85533",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 152,
+  "model": "GLB 200",
+  "power_kw": 110,
+  "price": 40500,
+  "price_history": [
+   [
+    "2026-10-16",
+    40500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Rein",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLB 200",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/85533",
+  "year": 2023
+ },
+ "autoportaal:85873": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "85873",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 20400,
+  "model": "C 180 Mild-Hybrid Automatik",
+  "power_kw": 125,
+  "price": 33990,
+  "price_history": [
+   [
+    "2026-10-16",
+    33990
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "United Motors Tallinn",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 180 Mild-Hybrid Automatik",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/85873",
+  "year": 2024
+ },
+ "autoportaal:85885": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "85885",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 275800,
+  "model": "C 200 Avatgarde Facelift",
+  "power_kw": 118,
+  "price": 13500,
+  "price_history": [
+   [
+    "2026-10-16",
+    13500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "PS",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 200 Avatgarde Facelift",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/85885",
+  "year": 2019
+ },
+ "autoportaal:86400": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "86400",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 66000,
+  "model": "C 300 T e Hybrid plugin 9G Tronic",
+  "power_kw": 230,
+  "price": 30900,
+  "price_history": [
+   [
+    "2026-10-16",
+    30900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "ASC Motors",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 300 T e Hybrid plugin 9G Tronic",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/86400",
+  "year": 2022
+ },
+ "autoportaal:87776": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "87776",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-AMG",
+  "mileage": 268086,
+  "model": "GLC 350e 4 MATIC",
+  "power_kw": 155,
+  "price": 19190,
+  "price_history": [
+   [
+    "2026-10-16",
+    19190
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Madis",
+  "source": "autoportaal",
+  "title": "Mercedes-AMG GLC 350e 4 MATIC",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/87776",
+  "year": 2018
+ },
+ "autoportaal:88589": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "88589",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 152000,
+  "model": "C 200",
+  "power_kw": 110,
+  "price": 15600,
+  "price_history": [
+   [
+    "2026-10-16",
+    15600
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Kevin",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 200",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/88589",
+  "year": 2018
+ },
+ "autoportaal:88803": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "88803",
+  "last_seen": "2026-10-16",
+  "make": "Subaru",
+  "mileage": 60926,
+  "model": "Outback LIMITED EyeSight",
+  "power_kw": 124,
+  "price": 29900,
+  "price_history": [
+   [
+    "2026-10-16",
+    29900
+   ]
+  ],
+  "searches": [
+   "Subaru Outback"
+  ],
+  "seller": "Morecar",
+  "source": "autoportaal",
+  "title": "Subaru Outback LIMITED EyeSight",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/88803",
+  "year": 2024
+ },
+ "autoportaal:89302": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Elekter",
+  "id": "89302",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 98500,
+  "model": "EQC 400, 4MATIC, AMG Line",
+  "power_kw": 145,
+  "price": 33900,
+  "price_history": [
+   [
+    "2026-10-16",
+    33900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Kristjan",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz EQC 400, 4MATIC, AMG Line",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/89302",
+  "year": 2020
+ },
+ "autoportaal:89319": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "89319",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 193500,
+  "model": "C 220",
+  "power_kw": 147,
+  "price": 21400,
+  "price_history": [
+   [
+    "2026-10-16",
+    21400
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Teet",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 220",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/89319",
+  "year": 2021
+ },
+ "autoportaal:91502": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "91502",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 205617,
+  "model": "C 200",
+  "power_kw": 110,
+  "price": 14900,
+  "price_history": [
+   [
+    "2026-10-16",
+    14900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "SKO Motors - Škoda  Laagri",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 200",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/91502",
+  "year": 2018
+ },
+ "autoportaal:91590": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Elekter",
+  "id": "91590",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 40982,
+  "model": "EQE 4matic AMG pakett",
+  "power_kw": 215,
+  "price": 61900,
+  "price_history": [
+   [
+    "2026-10-16",
+    61900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Veho OÜ Pärnu esindus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz EQE 4matic AMG pakett",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/91590",
+  "year": 2024
+ },
+ "autoportaal:92197": {
+  "body": "universaal",
+  "drive": "esivedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "92197",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 183000,
+  "model": "CLA 220",
+  "power_kw": 130,
+  "price": 16500,
+  "price_history": [
+   [
+    "2026-10-16",
+    16500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Karin",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz CLA 220",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/92197",
+  "year": 2017
+ },
+ "autoportaal:93793": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "93793",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 142000,
+  "model": "E 300",
+  "power_kw": 225,
+  "price": 31000,
+  "price_history": [
+   [
+    "2026-10-16",
+    31000
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Janno",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 300",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/93793",
+  "year": 2021
+ },
+ "autoportaal:9402": {
+  "body": "7 kohta",
+  "drive": "esivedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Elekter",
+  "id": "9402",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 102000,
+  "model": "EQV 300 Avantgarde",
+  "power_kw": 70,
+  "price": 41900,
+  "price_history": [
+   [
+    "2026-10-16",
+    41900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Veho OÜ Väo esindus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz EQV 300 Avantgarde",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/9402",
+  "year": 2022
+ },
+ "autoportaal:9418": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "9418",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 88000,
+  "model": "V 300 Avantgarde A2 d AMG Line",
+  "power_kw": 174,
+  "price": 69900,
+  "price_history": [
+   [
+    "2026-10-16",
+    69900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Veho OÜ Väo esindus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz V 300 Avantgarde A2 d AMG Line",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/9418",
+  "year": 2023
+ },
+ "autoportaal:94452": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "94452",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 279000,
+  "model": "E 220",
+  "power_kw": 143,
+  "price": 18600,
+  "price_history": [
+   [
+    "2026-10-16",
+    18600
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Geio",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 220",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/94452",
+  "year": 2017
+ },
+ "autoportaal:94582": {
+  "body": "universaal",
+  "drive": "esivedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "94582",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 49139,
+  "model": "GLA 250 E AMG Night",
+  "power_kw": 120,
+  "price": 39990,
+  "price_history": [
+   [
+    "2026-10-16",
+    39990
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Ideal Auto",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLA 250 E AMG Night",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/94582",
+  "year": 2023
+ },
+ "autoportaal:95856": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "95856",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 243020,
+  "model": "E 220 Avantgarde",
+  "power_kw": 143,
+  "price": 17999,
+  "price_history": [
+   [
+    "2026-10-16",
+    17999
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Longo",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 220 Avantgarde",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/95856",
+  "year": 2017
+ },
+ "autoportaal:95956": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "95956",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 209000,
+  "model": "E 220",
+  "power_kw": 143,
+  "price": 20900,
+  "price_history": [
+   [
+    "2026-10-16",
+    20900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Helari",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 220",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/95956",
+  "year": 2017
+ },
+ "autoportaal:96289": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "96289",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 184000,
+  "model": "GLC 220 4 MATIC",
+  "power_kw": 125,
+  "price": 24900,
+  "price_history": [
+   [
+    "2026-10-16",
+    24900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Joel",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLC 220 4 MATIC",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/96289",
+  "year": 2018
+ },
+ "autoportaal:96305": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "96305",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 138818,
+  "model": "E 220 4Matic",
+  "power_kw": 143,
+  "price": 23500,
+  "price_history": [
+   [
+    "2026-10-16",
+    23500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Johannes",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 220 4Matic",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/96305",
+  "year": 2018
+ },
+ "autoportaal:96600": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "96600",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 194999,
+  "model": "E 300 AMG packet",
+  "power_kw": 223,
+  "price": 26999,
+  "price_history": [
+   [
+    "2026-10-16",
+    26999
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Roman",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 300 AMG packet",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/96600",
+  "year": 2020
+ },
+ "autoportaal:97134": {
+  "body": "universaal",
+  "drive": "esivedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "97134",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 56196,
+  "model": "218",
+  "power_kw": 110,
+  "price": 20990,
+  "price_history": [
+   [
+    "2026-10-16",
+    20990
+   ]
+  ],
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "United Motors Tallinn",
+  "source": "autoportaal",
+  "title": "BMW 218",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/97134",
+  "year": 2022
+ },
+ "autoportaal:97211": {
+  "body": "universaal",
+  "drive": "esivedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "97211",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 88000,
+  "model": "B 180",
+  "power_kw": 80,
+  "price": 13900,
+  "price_history": [
+   [
+    "2026-10-16",
+    13900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Rainer",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz B 180",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/97211",
+  "year": 2019
+ },
+ "autoportaal:97269": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Hübriid",
+  "id": "97269",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 99340,
+  "model": "E 300 de 4Matic AMG Night pakett",
+  "power_kw": 143,
+  "price": 31900,
+  "price_history": [
+   [
+    "2026-10-16",
+    31900
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Veho OÜ Pärnu esindus",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 300 de 4Matic AMG Night pakett",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/97269",
+  "year": 2022
+ },
+ "autoportaal:97298": {
+  "body": "7 kohta",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "97298",
+  "last_seen": "2026-10-16",
+  "make": "Skoda",
+  "mileage": 129820,
+  "model": "Kodiaq Elegance",
+  "power_kw": 110,
+  "price": 24900,
+  "price_history": [
+   [
+    "2026-10-16",
+    24900
+   ]
+  ],
+  "searches": [
+   "Škoda Superb 4x4"
+  ],
+  "seller": "Aasta Auto",
+  "source": "autoportaal",
+  "title": "Škoda Kodiaq Elegance",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/97298",
+  "year": 2019
+ },
+ "autoportaal:97499": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Elekter",
+  "id": "97499",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 83100,
+  "model": "EQC 4matic Special Edition 1886",
+  "power_kw": 145,
+  "price": 32000,
+  "price_history": [
+   [
+    "2026-10-16",
+    32000
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Tarmo",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz EQC 4matic Special Edition 1886",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/97499",
+  "year": 2019
+ },
+ "autoportaal:97961": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "97961",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 140000,
+  "model": "C 220 AMG sport/night package",
+  "power_kw": 143,
+  "price": 25500,
+  "price_history": [
+   [
+    "2026-10-16",
+    25500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "EE",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz C 220 AMG sport/night package",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/97961",
+  "year": 2019
+ },
+ "autoportaal:98571": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Pistikhübriid",
+  "id": "98571",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 120400,
+  "model": "E 300",
+  "power_kw": 235,
+  "price": 26100,
+  "price_history": [
+   [
+    "2026-10-16",
+    26100
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Moller Auto Keskladu",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz E 300",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/98571",
+  "year": 2021
+ },
+ "autoportaal:98648": {
+  "body": "universaal",
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "98648",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 205000,
+  "model": "GLE 300 AMG NIGHT PACKAGE",
+  "power_kw": 180,
+  "price": 36500,
+  "price_history": [
+   [
+    "2026-10-16",
+    36500
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Olav",
+  "source": "autoportaal",
+  "title": "Mercedes-Benz GLE 300 AMG NIGHT PACKAGE",
+  "url": "https://autoportaal.ee/et/kasutatud-autod/98648",
+  "year": 2019
+ },
+ "longo:D494488": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "D494488",
+  "last_seen": "2026-10-16",
+  "make": "BMW",
+  "mileage": 130875,
+  "model": "320 series 3 Luxury Line",
+  "power_kw": null,
+  "price": 23199,
+  "price_history": [
+   [
+    "2026-10-16",
+    23199
+   ]
+  ],
+  "searches": [
+   "BMW 3 / 5 seeria"
+  ],
+  "seller": "Longo",
+  "source": "longo",
+  "title": "BMW 320 Luxury Line",
+  "url": "https://longo.ee/auto/BMW-320-2020/D494488",
+  "year": 2020
+ },
+ "longo:G802599": {
+  "body": "universaal",
+  "drive": "tagavedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Diisel",
+  "id": "G802599",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 153161,
+  "model": "C220 c-class Avantgarde",
+  "power_kw": null,
+  "price": 17899,
+  "price_history": [
+   [
+    "2026-10-16",
+    17899
+   ]
+  ],
+  "searches": [
+   "Mercedes C-klass"
+  ],
+  "seller": "Longo",
+  "source": "longo",
+  "title": "Mercedes-Benz C220 Avantgarde",
+  "url": "https://longo.ee/auto/MERCEDES-BENZ-C220-2018/G802599",
+  "year": 2018
+ },
+ "veego:648941": {
+  "body": null,
+  "drive": "nelikvedu",
+  "first_seen": "2026-10-16",
+  "fuel": "Bensiin",
+  "id": "648941",
+  "last_seen": "2026-10-16",
+  "make": "Mercedes-Benz",
+  "mileage": 210000,
+  "model": "C43 AMG 3.0l 270kW",
+  "power_kw": 270,
+  "price": 2790000,
+  "price_history": [
+   [
+    "2026-10-16",
+    2790000
+   ]
+  ],
+  "searches": [
+   "Mercedes C 43 AMG"
+  ],
+  "seller": "Ramses",
+  "source": "veego",
+  "title": "Mercedes-Benz C43 AMG 3.0l 270kW",
+  "url": "https://veego.ee/kasutatud-autod/648941",
+  "year": 2017
+ }
+}
