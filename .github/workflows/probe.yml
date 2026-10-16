@@ -1,0 +1,56 @@
+name: probe car sites
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Probe
+        run: |
+          mkdir -p out && cd out
+          python - <<'PY'
+          import requests, json
+          H = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36",
+               "Accept-Language": "et-EE,et;q=0.9,en;q=0.8",
+               "Accept": "text/html,application/xhtml+xml,*/*;q=0.8"}
+          sites = {
+            "autoportaal": "https://autoportaal.ee/",
+            "autodiiler": "https://autodiiler.ee/",
+            "okidoki": "https://www.okidoki.ee/",
+            "mobile_de": "https://www.mobile.de/",
+            "autoplius": "https://autoplius.lt/",
+            "auto24": "https://www.auto24.ee/",
+          }
+          res = {}
+          for name, url in sites.items():
+              row = {"url": url}
+              for kind, u in (("home", url), ("robots", url.rstrip("/") + "/robots.txt")):
+                  try:
+                      r = requests.get(u, headers=H, timeout=25)
+                      row[kind] = {"status": r.status_code, "final": r.url,
+                                   "server": r.headers.get("server"),
+                                   "cf_mitigated": r.headers.get("cf-mitigated"),
+                                   "len": len(r.text)}
+                      open(f"{name}_{kind}.txt", "w", encoding="utf-8").write(r.text[:200000])
+                  except Exception as e:
+                      row[kind] = {"error": str(e)}
+              res[name] = row
+          json.dump(res, open("summary.json", "w"), indent=1)
+          print(json.dumps(res, indent=1))
+          PY
+      - name: Save to probe branch
+        run: |
+          cd out
+          git init -q -b probe
+          git config user.name probe; git config user.email probe@users.noreply.github.com
+          git add -A; git commit -qm "probe results"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" probe
