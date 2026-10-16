@@ -25,6 +25,14 @@ ROOT = Path(__file__).resolve().parent
 STATE = ROOT / "state" / "listings.json"
 REPORT = ROOT / "report.md"
 MODEL = os.environ.get("CLAUDE_MODEL") or "claude-haiku-5-5"
+LOG = ROOT / "debug" / "ai_overview.log"
+
+
+def log(msg: str) -> None:
+    print(msg, file=sys.stderr)
+    LOG.parent.mkdir(exist_ok=True)
+    with LOG.open("a", encoding="utf-8") as f:
+        f.write(msg + "\n")
 
 SYSTEM = """You are a frank, experienced Estonian used-car advisor helping one buyer choose between \
 listings from his saved searches. You know the common faults, repair costs and \
@@ -108,7 +116,7 @@ def main() -> int:
     utc_today = datetime.utcnow().date().isoformat()
     rows = rows_for_prompt(listings, utc_today) or rows_for_prompt(listings, today)
     if len(rows) < 2:
-        print("Too few listings for an overview")
+        log(f"Too few listings for an overview (utc={utc_today}, local={today}, rows={len(rows)})")
         return 0
 
     prompt = INSTRUCTIONS.format(today=today, n=len(rows), model=MODEL, rows="\n".join(rows))
@@ -120,19 +128,21 @@ def main() -> int:
                   "messages": [{"role": "user", "content": prompt}]},
             timeout=120,
         )
+        if r.status_code >= 400:
+            log(f"API HTTP {r.status_code}: {r.text[:800]}")
         r.raise_for_status()
         data = r.json()
         text = "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text").strip()
     except Exception as e:  # noqa: BLE001 — never break the daily report
-        print(f"AI overview failed: {e}", file=sys.stderr)
+        log(f"AI overview failed: {e!r}")
         return 0
     if "Top 3" not in text:
-        print("Unexpected AI output — not added:\n" + text[:500], file=sys.stderr)
+        log("Unexpected AI output — not added:\n" + text[:1500] + f"\nstop_reason={data.get('stop_reason')}")
         return 0
 
     REPORT.write_text(text + "\n\n---\n\n" + REPORT.read_text(encoding="utf-8"), encoding="utf-8")
     u = data.get("usage", {})
-    print(f"AI overview added ({MODEL}, {u.get('input_tokens')} in / {u.get('output_tokens')} out tokens)")
+    log(f"AI overview added ({MODEL}, {u.get('input_tokens')} in / {u.get('output_tokens')} out tokens)")
     return 0
 
 

@@ -11,6 +11,10 @@ on:
         description: "Test run: no issue, no state commit; log saved to the 'debug' branch"
         type: boolean
         default: false
+      ai_only:
+        description: "Dry run without scraping: AI overview of the saved listings, emailed as [test]"
+        type: boolean
+        default: false
       test_email:
         description: "Only send a test email (no scraping)"
         type: boolean
@@ -57,7 +61,7 @@ jobs:
           python notify_email.py /tmp/test.md
 
       - name: Scrape and diff
-        if: ${{ !inputs.test_email }}
+        if: ${{ !inputs.test_email && !inputs.ai_only }}
         run: |
           mkdir -p debug
           set -o pipefail
@@ -65,10 +69,10 @@ jobs:
 
       - name: AI overview (top 3 picks)
         if: ${{ !inputs.test_email && env.ANTHROPIC_API_KEY != '' }}
-        run: python ai_overview.py ${{ inputs.dry_run && '--force' || '' }}
+        run: python ai_overview.py ${{ (inputs.dry_run || inputs.ai_only) && '--force' || '' }}
 
       - name: Commit updated state
-        if: ${{ !inputs.dry_run && !inputs.test_email }}
+        if: ${{ !inputs.dry_run && !inputs.test_email && !inputs.ai_only }}
         run: |
           git config user.name  "car-watcher"
           git config user.email "actions@users.noreply.github.com"
@@ -77,7 +81,7 @@ jobs:
           git push
 
       - name: Post report as GitHub issue
-        if: ${{ !inputs.dry_run && hashFiles('report.md') != '' }}
+        if: ${{ !inputs.dry_run && !inputs.ai_only && hashFiles('report.md') != '' }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -98,16 +102,17 @@ jobs:
           SMTP_USER: jakob@kergeraskus.ee
           SMTP_SENDER_NAME: Autod watcher
           EMAIL_TO: ${{ vars.EMAIL_TO || 'jakob.pihol@gmail.com' }}
-          SUBJECT_PREFIX: ${{ inputs.dry_run && '[test] ' || '' }}
+          SUBJECT_PREFIX: ${{ (inputs.dry_run || inputs.ai_only) && '[test] ' || '' }}
         run: python notify_email.py report.md
 
       - name: Send report to Telegram (optional)
-        if: ${{ !inputs.dry_run && hashFiles('report.md') != '' && env.TELEGRAM_BOT_TOKEN != '' }}
+        if: ${{ !inputs.dry_run && !inputs.ai_only && hashFiles('report.md') != '' && env.TELEGRAM_BOT_TOKEN != '' }}
         run: python notify_telegram.py report.md
 
       - name: Save debug output to the 'debug' branch (on failure or test run)
-        if: ${{ failure() || inputs.dry_run }}
+        if: ${{ failure() || inputs.dry_run || inputs.ai_only }}
         run: |
+          mkdir -p debug
           cp report.md debug/ 2>/dev/null || true
           cp -r debug /tmp/debug
           git config user.name  "car-watcher"
