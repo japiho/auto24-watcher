@@ -99,6 +99,8 @@ def to_int(s):
         return None
     if isinstance(s, (int, float)):
         return int(s)
+    if re.fullmatch(r"\s*\d+\.\d+\s*", str(s)):        # "27900.00"
+        return int(float(s))
     digits = re.sub(r"\D", "", str(s))
     return int(digits) if digits else None
 
@@ -276,7 +278,7 @@ def autoportaal(session, s, cache) -> dict:
                 }
             if not new:
                 break
-    return out
+    return {k: v for k, v in out.items() if matches(v, s)}
 
 
 # --------------------------------------------------------------------------- #
@@ -348,6 +350,7 @@ def veego(session, s, cache) -> dict:
             body["page"] = page
             r = _req(session, "POST", "https://api.veego.ee/api/v2/search", tag, json=body, headers=hdr)
             data = r.json()
+            print(f"    veego term={term!r} drive={drive} page={page}: total={data.get('total')}")
             for v in data.get("results") or []:
                 title = v.get("title") or ""
                 kw = re.search(r"(\d+)\s*kW", title)
@@ -448,6 +451,7 @@ def carprof(session, s, cache) -> dict:
             }
         cache["carprof:catalog"] = cars
         cache["carprof:details"] = {}
+        print(f"    carprof catalog: {len(cars)} cars: " + ", ".join(sorted({c['card_title'] for c in cars.values()}))[:600])
     out = {}
     for lid, c in cache["carprof:catalog"].items():
         v = dict(c)

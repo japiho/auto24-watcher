@@ -5,7 +5,12 @@ on:
     # 04:47 UTC = 07:47 Tallinn in summer, 06:47 in winter.
     # GitHub cron is UTC-only and often runs 5–30 min late.
     - cron: "47 4 * * *"
-  workflow_dispatch: {}   # "Run workflow" button for manual runs
+  workflow_dispatch:      # "Run workflow" button for manual runs
+    inputs:
+      dry_run:
+        description: "Test run: no issue, no state commit; log saved to the 'debug' branch"
+        type: boolean
+        default: false
 
 permissions:
   contents: write   # commit state/listings.json (+ debug branch on failure)
@@ -38,6 +43,7 @@ jobs:
           python watcher.py 2>&1 | tee debug/run.log
 
       - name: Commit updated state
+        if: ${{ !inputs.dry_run }}
         run: |
           git config user.name  "car-watcher"
           git config user.email "actions@users.noreply.github.com"
@@ -46,7 +52,7 @@ jobs:
           git push
 
       - name: Post report as GitHub issue
-        if: hashFiles('report.md') != ''
+        if: ${{ !inputs.dry_run && hashFiles('report.md') != '' }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -57,12 +63,13 @@ jobs:
             --body-file report.md
 
       - name: Send report to Telegram (optional)
-        if: hashFiles('report.md') != '' && env.TELEGRAM_BOT_TOKEN != ''
+        if: ${{ !inputs.dry_run && hashFiles('report.md') != '' && env.TELEGRAM_BOT_TOKEN != '' }}
         run: python notify_telegram.py report.md
 
-      - name: Save debug output to the 'debug' branch on failure
-        if: failure()
+      - name: Save debug output to the 'debug' branch (on failure or test run)
+        if: ${{ failure() || inputs.dry_run }}
         run: |
+          cp report.md debug/ 2>/dev/null || true
           cp -r debug /tmp/debug
           git config user.name  "car-watcher"
           git config user.email "actions@users.noreply.github.com"
