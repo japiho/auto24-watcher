@@ -184,7 +184,11 @@ def enrich_unknown_drive(session, current, old, spec_by_name, limit=40):
             continue                                     # looked before, page had no drive
         elif fetched < limit:
             try:
-                attrs = detail_attrs(get(session, v["url"], v["source"]))
+                html = get(session, v["url"], v["source"])
+                attrs = detail_attrs(html)
+                if fetched < 6:
+                    (ROOT / "debug").mkdir(exist_ok=True)
+                    (ROOT / "debug" / f"detail_{v['source']}_{v['id']}.html").write_text(html, encoding="utf-8")
             except Exception as e:  # noqa: BLE001
                 print(f"  detail {v['url']}: {e}", file=sys.stderr)
                 continue
