@@ -31,6 +31,8 @@ jobs:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      CLAUDE_MODEL: claude-haiku-5-5   # same model as nexara
     steps:
       - uses: actions/checkout@v4
 
@@ -60,6 +62,10 @@ jobs:
           mkdir -p debug
           set -o pipefail
           python watcher.py 2>&1 | tee debug/run.log
+
+      - name: AI overview (top 3 picks)
+        if: ${{ !inputs.test_email && env.ANTHROPIC_API_KEY != '' }}
+        run: python ai_overview.py ${{ inputs.dry_run && '--force' || '' }}
 
       - name: Commit updated state
         if: ${{ !inputs.dry_run && !inputs.test_email }}

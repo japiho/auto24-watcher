@@ -26,6 +26,12 @@ The scraper waits between requests and runs once a day.
 
 **Drive type (veoskeem)** is shown on every row. Where a listing doesn't say, the watcher checks the car's own page, then the same car on another site (same year and exact mileage). If it's still unknown, the row shows *veoskeem ?* instead of the car being dropped.
 
+## AI overview: top 3 picks
+
+Each report starts with a short **Top 3 picks** section written by Claude (`claude-haiku-5-5`, the same model as nexara). It covers why each car is good value, its running and repair costs, and what to check before buying. It's based on the listing data and general knowledge of each engine and gearbox, not an inspection.
+
+Setup: add the repository secret `ANTHROPIC_API_KEY` (the same key nexara uses). Without it, the overview is skipped and everything else works as before. Cost is a fraction of a cent per day.
+
 ## Getting the report
 
 - **GitHub issue (default):** when something changes, the job opens an issue titled `Autod DD.MM.YYYY`. GitHub emails you, and it shows up in the GitHub mobile app. Days with no changes produce no issue.
