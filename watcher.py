@@ -22,7 +22,7 @@ from pathlib import Path
 
 import requests
 
-from sources import SOURCES, ScrapeError
+from sources import SOURCES, ScrapeError, detail_attrs, get, matches
 
 ROOT = Path(__file__).resolve().parent
 CONFIG_FILE = ROOT / "searches.json"
@@ -95,7 +95,7 @@ def diff(old, new, today, ok_sites):
                 changed.append((prev, cur))
                 hist = hist + [[today, cur["price"]]]
             cur["price_history"] = hist
-            for f in ("drive", "body", "power_kw"):          # keep details learned earlier
+            for f in ("drive", "body", "power_kw", "drive_checked"):   # keep details learned earlier
                 if cur.get(f) is None and prev.get(f) is not None:
                     cur[f] = prev[f]
         cur["last_seen"] = today
@@ -167,6 +167,39 @@ def build_report(added, changed, removed, pool, failures, names, today, first_ru
 
 
 # --------------------------------------------------------------------------- #
+def enrich_unknown_drive(session, current, old, spec_by_name, limit=40):
+    """Cars in 4x4 searches whose drive is unknown: reuse what we learned before,
+    else read it from the car's own page. Cars that turn out to be the wrong
+    drive type are dropped from those searches."""
+    fetched = 0
+    for k in list(current):
+        v = current[k]
+        need = [n for n in v.get("searches", []) if spec_by_name[n].get("drive")]
+        if v.get("drive") or not need:
+            continue
+        prev = old.get(k) or {}
+        if prev.get("drive"):
+            v["drive"] = prev["drive"]
+        elif prev.get("drive_checked"):
+            continue                                     # looked before, page had no drive
+        elif fetched < limit:
+            try:
+                attrs = detail_attrs(get(session, v["url"], v["source"]))
+            except Exception as e:  # noqa: BLE001
+                print(f"  detail {v['url']}: {e}", file=sys.stderr)
+                continue
+            fetched += 1
+            v["drive_checked"] = True
+            for f in ("drive", "body", "power_kw"):
+                if v.get(f) is None and attrs.get(f) is not None:
+                    v[f] = attrs[f]
+        if v.get("drive"):
+            v["searches"] = [n for n in v["searches"] if matches(v, spec_by_name[n])]
+            if not v["searches"]:
+                del current[k]
+    print(f"  drive lookups on detail pages: {fetched}")
+
+
 def main() -> int:
     cfg = json.loads(CONFIG_FILE.read_text(encoding="utf-8"))
     searches = [s for s in cfg["searches"] if s.get("enabled", True)]
@@ -210,6 +243,8 @@ def main() -> int:
 
     first_run = not STATE_FILE.exists()
     old = {} if first_run else json.loads(STATE_FILE.read_text(encoding="utf-8"))
+
+    enrich_unknown_drive(session, current, old, {s["name"]: s for s in searches})
 
     # A site that suddenly returns far fewer cars is more likely broken than sold out.
     for site in list(ok_sites):
